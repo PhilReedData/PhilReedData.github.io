@@ -1,6 +1,8 @@
 # Index
 
-- [Library Digital Humanities Lab, 3 March 2017](https://github.com/PhilReedData/PhilReedData.github.io/ldh201703/README.md)
+- [Library Digital Humanities Lab, 3 March 2017](https://philreeddata.github.io/ldh201703/README.md)
+
+# Ignore the rest of this page, will delete!
 
 ## Welcome to GitHub Pages
 
