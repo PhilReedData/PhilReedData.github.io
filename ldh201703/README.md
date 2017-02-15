@@ -1,11 +1,14 @@
 ---
-title: Library Digital Humanities Lab 3 March 2017
+title: Digital Humanities Library Lab: Exploring digital collections, 3 March 2017
 ---
 
-# Library Digital Humanities Lab 3 March 2017
+# Digital Humanities Library Lab: Exploring digital collections, 3 March 2017
 
 ## Aims of the workshop
-This workshop is produced for researchers in the Faculty of Humanities at The University of Manchester who wish to begin exploring digital text collections at The University of Manchester Library in new ways. These ways might inspire you to develop further research that can be described as Digital Humanities.
+This workshop is for researchers in the Faculty of Humanities at The University of Manchester who wish to continue exploring digital collections at The University of Manchester Library. The ideas and techniques that you will see and have hands-on experience with might inspire you to develop further Digital Humanities research projects. You will look at digital text collections from publishers at plaforms such as JSTOR, Jisc, Adam Matthew and Gale Cengage, using light-touch text and data mining techniques. Some of the activities will involve using a bit of Python code; however, the workshop assumes you may have no prior programming experience.
+
+The event is scheduled for 2pm to 5pm on Friday, 3 March 2017 (breaking 3.30pm to 4pm for coffee).
+Location: Teaching Suite (Blue 4), Main Library, The University of Manchester Library.
 
 ## Overview of the afternoon
 - Welcome, install any necessary tools
@@ -53,7 +56,9 @@ A new tool to help explore scholarly books is [JSTOR Topicgraph](https://labs.js
 - Get the code
 
 ## Activity: JSTOR Data for Research
+[JSTOR Data for Research](http://dfr.jstor.org/)
 
 ## Conclusion
+...
 
-Go to [Home](/)
+Go to [Back to top](#overview-of-the-afternoon) | [Home](/)
