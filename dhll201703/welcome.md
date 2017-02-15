@@ -21,4 +21,4 @@ How to install Python:
 Show a bit about a DH project
 
 
-Go to [Back to top](#welcome-and-introduction) | [Parent](../) | [Home](/)
+Go to [Back to top](#welcome-and-introduction) | [Parent](index.html) | [Home](/)
