@@ -12,28 +12,14 @@ Location: Teaching Suite (Blue 4), Main Library, The University of Manchester Li
 Computers will be available, though you may bring your own laptop if you wish.
 
 ## Overview of the afternoon
-- Welcome, install any necessary tools
-- Introductory show case
+- [Welcome and introduction](welcome.html)
 - Activity: Jisc Historical Collections
 - Activity: JSTOR Topicgraph
 - Activity: Adam Matthew Mass Observation
 - Activity: JSTOR Data for Research
 - Conclusion
 
-## Welcome, install any necessary tools
-Intro to the event
-
-### Aims
-
-### Begin installation
-How to install Python:
-
-- Click Start, "Application Catalog".
-- In the search bar, type "Python", choose "Anaconda Python 1.9"
-- Click "Install" and wait.
-
-## Introductory show case
-Show a bit about a DH project
+## Welcome and introduction
 
 ## Activity: Jisc Historical Collections
 We will have a look at [Jisc Historical Collections](http://historicaltexts.jisc.ac.uk/). This interface  provides a single search interface to multiple collections:
