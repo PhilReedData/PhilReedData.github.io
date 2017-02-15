@@ -22,7 +22,7 @@ A typical web request involves a [URL](https://techterms.com/definition/url){:ta
 
 Using the Adam Matthew API is similar. A request takes the form of a URL, which points to a specific bit of data from the Adam Matthew server. It can be used from any computer on University campus (i.e. we are restricted by IP range). You can type or paste Adam Matthew request URLs into your web browser's address bar to return data. The data it returns is still text data, but instead of using HTML markup it uses [JSON](https://en.wikipedia.org/wiki/JSON#Example){:target="_blank"} markup.
 
-Looking at JSON data in the web browser is not particularly helpful. It is designed for programming languages to interpret, making effective use of the nested key-value pairs structure. So we will (TBC) use a short Python script that takes a URL, calls the Adam Matthew API, returns JSON data, then does something with that data.
+Looking at JSON data in the web browser is not particularly helpful. It is designed for programming languages to interpret, making effective use of the nested key-value pairs structure. JSON data will look better in some browsers, at least make it readable. 
 
 ### Get the API key
 For the purposes of security, the URLs that you use to access the Adam Matthew API need to include a 32-digit key. The key given to us for the purpose of this workshop is not included in this web page as it could be viewed by anyone. Please await instructions on the afternoon! 
@@ -37,11 +37,47 @@ Before we dive into any programming or code, copy the example URL request below,
 You should see a JSON data response.
 
 ### Types of request
-I have written a webpage you may use to [build an Adam Matthew API URL](http://personalpages.manchester.ac.uk/staff/Phil.Reed/) and see returned JSON data. 
+I have written a webpage you may use to [build an Adam Matthew API URL](https://PhilReedData.github.io/dhll201703/am-url-builder.html){:target="_blank"} and see returned JSON data. If you are using Google Chrome, the returned JSON data will, after a few seconds, display in a nicer way (pretty printing). 
 
-[Alternative link](https://PhilReedData.github.io/dhll201703/am-url-builder.html) - you will need to right-click on this link and save the page to your computer, then open it in Chrome. Why? Because the alternative link is hosted outside the University's IP address range so Adam Matthew won't accept requests from it.
+Use this page to search documents by:
+
+- __id__ - to return a specific document and its full text
+
+...or any combination of the following.
+
+- __query__ - the text to search for, parsed as [Contextual Query Language (CQL)](http://developers.amdigital.co.uk/API/CQL){:target="_blank"}
+- __take__ - number of records to return, up to 200
+- __skip__ - the record number to start at from the list of results
+
+Complete some of the fields above, and paste in the API key, and press the "Create URL and run" button.
+
+The returned JSON data has a structure which includes:
+
+- __timestamp __ - when the query was executed
+- __version__ -  the version of the API used
+- __totalResults__ - how many results follow
+- __data__ - a list of results, or just one if you specified an "id" in the previous page.
+
+The __data__ items include:
+
+- __type__ - one of "document", "section" or others, depending on the query
+- __collection__ - always "Mass Observation" for our queries
+- __identifier__ - we can use this in a subsequent query in the "id" field
+- __uri__ - a link to view the document in the regular Adam Matthew web interface
+- __metadata__ - a list of metatdata items such as title, date, source, rights, and fullText (true/false)
+- __fulltext__ - for a single search result (by id), if available, get the full text (could be slow)
+
+### Exercise
+1. Try using the webpage to run a query. Consider using CQL syntax such as "prox".
+2. Select a result you want to know more about. 
+3. View your chosen in the regular Adam Matthew web interface (hint, find the URI field).
+4. Can you get to the full text for that document?
+5. _Going further_: Write a short Python script that takes a URL, calls the Adam Matthew API, returns JSON data, then does something with that data. I have written the start of the script for you...
 
 ...
+
+### Other matters
+(May put this in the Conclusions section) Data mining agreements, copyright...
 
 ### Support from Adam Matthew
 [The Adam Matthew API](http://developers.amdigital.co.uk/API/Overview)
