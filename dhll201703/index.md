@@ -12,11 +12,11 @@ Location: Teaching Suite (Blue 4), Main Library, The University of Manchester Li
 Computers will be available, though you may bring your own laptop if you wish.
 
 ## Overview of the afternoon
-- [Welcome and introduction](welcome.html)
-- [Activity: Jisc Historical Collections](jischc.html)
-- [Activity: JSTOR Topicgraph](jstortg.html)
-- [Activity: Adam Matthew Mass Observation](ammo.html)
-- [Activity: JSTOR Data for Research](jstordfr.html)
+- [Welcome and introduction](welcome.html) - _started_
+- [Activity: Jisc Historical Collections](jischc.html) - _not yet started_
+- [Activity: JSTOR Topicgraph](jstortg.html) - _not yet started_
+- [Activity: Adam Matthew Mass Observation](ammo.html) - _most of the essential copy is done_
+- [Activity: JSTOR Data for Research](jstordfr.html) - _not yet started_
 - Conclusion
 
 
