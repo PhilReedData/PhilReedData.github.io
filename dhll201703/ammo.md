@@ -8,14 +8,17 @@ title: Adam Matthew | Digital Humanities Library Lab: Exploring digital collecti
 ## Activity: Adam Matthew Mass Observation
 
 ### What is it? Why use it?
+TBA. ALSO, IMAGES TO FOLLOW.
 
 ### Getting started
 
 - How does it work?
 - Get the API key
 - Practice in the browser
-- Types of request
-- Get the code
+- Use a simple tool
+- Exercise
+- Other matters
+- Support from Adam Matthew
 
 ### How does it work?
 A typical web request involves a [URL](https://techterms.com/definition/url){:target="_blank"} typed in the address bar of your web browser. It points to a specific site, and a specific page within that site - click in the address bar now to see the URL of this page. After you enter the URL, either by typing it or clicking on a link that contains it, you will be taken to a web page. Really, this web page is an HTML document delivered from a web server to your browser; that is, a text file written with HTML tags to give structure is rendered onto the screen.
@@ -30,13 +33,17 @@ For the purposes of security, the URLs that you use to access the Adam Matthew A
 The files you will download have a dummy key XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX which you can replace with the real one.
 
 ### Practice in the browser
-Before we dive into any programming or code, copy the example URL request below, paste into a new window or tab address bar, replace the key, and press Enter. 
+Before we dive into any tools or code, let's try a simple, single request.
+1. Copy the example URL request below (all one 'word')
+2. Paste into the address bar of a new browser window or tab.
+3. Replace the API key! (Copy and paste.)
+4. Press Enter. 
 
 `https://api.amdigital.co.uk/1.0/massobservation/documents?apiKey=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&take=1`
 
-You should see a JSON data response.
+You should see a JSON data response. Don't be put off, it's more useful and meaningful than it first appears.
 
-### Types of request
+### Use a simple tool
 I have written a webpage you may use to [build an Adam Matthew API URL](https://PhilReedData.github.io/dhll201703/am-url-builder.html){:target="_blank"} and see returned JSON data. If you are using Google Chrome, the returned JSON data will, after a few seconds, display in a nicer way (pretty printing). 
 
 Use this page to search documents by:
@@ -53,7 +60,7 @@ Complete some of the fields above, and paste in the API key, and press the "Crea
 
 The returned JSON data has a structure which includes:
 
-- __timestamp __ - when the query was executed
+- __timestamp__ - when the query was executed
 - __version__ -  the version of the API used
 - __totalResults__ - how many results follow
 - __data__ - a list of results, or just one if you specified an "id" in the previous page.
@@ -72,15 +79,15 @@ The __data__ items include:
 2. Select a result you want to know more about. 
 3. View your chosen in the regular Adam Matthew web interface (hint, find the URI field).
 4. Can you get to the full text for that document?
-5. _Going further_: Write a short Python script that takes a URL, calls the Adam Matthew API, returns JSON data, then does something with that data. I have written the start of the script for you...
+5. _Going further_: Try the second form to look at sections within documents. What differences do you see?
+6. _Going even further_: Write a short Python script that takes a URL, calls the Adam Matthew API, returns JSON data, then does something with that data. I have written the start of the script for you... TBA
 
-...
 
 ### Other matters
-(May put this in the Conclusions section) Data mining agreements, copyright...
+(May put this in the Conclusions section) Data mining agreements, copyright... TBA
 
 ### Support from Adam Matthew
-[The Adam Matthew API](http://developers.amdigital.co.uk/API/Overview)
+This is not part of the usual service from Adam Matthew, or from academic libraries in the UK. There is some guidance from [The Adam Matthew API](http://developers.amdigital.co.uk/API/Overview).
 
 
 Go to [Back to top](#activity-adam-matthew-mass-observation) | [Parent](index.html) | [Home](/)
