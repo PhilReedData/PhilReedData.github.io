@@ -64,7 +64,7 @@ A typical web request involves a [URL](https://techterms.com/definition/url){:ta
 
 Using the Adam Matthew API is similar. A request takes the form of a URL, which points to a specific bit of data from the Adam Matthew server. It can be used from any computer on University campus (i.e. we are restricted by IP range). You can type or paste Adam Matthew request URLs into your web browser's address bar to return data. The data it returns is still text data, but instead of using HTML markup it uses [JSON](https://en.wikipedia.org/wiki/JSON#Example){:target="_blank"} markup.
 
-Looking at JSON data in the web browser is not particularly helpful. It is designed for programming languages to interpret, making effective use of the nested key-value pairs structure. So we will use a short Python script that takes a URL, calls the Adam Matthew API, returns JSON data, then does something with that data.
+Looking at JSON data in the web browser is not particularly helpful. It is designed for programming languages to interpret, making effective use of the nested key-value pairs structure. So we will (TBC) use a short Python script that takes a URL, calls the Adam Matthew API, returns JSON data, then does something with that data.
 
 ### Get the API key
 For the purposes of security, the URLs that you use to access the Adam Matthew API need to include a 32-digit key. The key given to us for the purpose of this workshop is not included in this web page as it could be viewed by anyone. Please await instructions on the afternoon! 
@@ -79,10 +79,9 @@ Before we dive into any programming or code, copy the example URL request below,
 You should see a JSON data response.
 
 ### Types of request
-Examples of other URLs to use are:
+I have written a webpage you may use to [build an Adam Matthew API URL](http://personalpages.manchester.ac.uk/staff/Phil.Reed/) and see returned JSON data. 
 
-`https://api.amdigital.co.uk/1.0/massobservation/documents?apiKey=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&take=2&query=easter`
-
+[Alternative link](https://PhilReedData.github.io/dhll201703/am-url-builder.html) - you will need to right-click on this link and save the page to your computer, then open it in Chrome. Why? Because the alternative link is hosted outside the University's IP address range so Adam Matthew won't accept requests from it.
 
 ...
 

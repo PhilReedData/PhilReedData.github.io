@@ -95,7 +95,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+div.container {
+	border:0.5em black solid; 
+	background-color: #ebe; 
+} 
+div.container:first-of-type {
+	background-color: #eeb;
+}
 
+p, h1, h2,h3 {
+	margin-top: 0.2em;
+	margin-bottom: 0.4em;
+	margin-left: 5px;
+	margin-right: 5px;
+}
 
 
 
