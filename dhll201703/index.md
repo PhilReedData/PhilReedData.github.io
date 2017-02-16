@@ -22,7 +22,7 @@ Please note that the formal Call for expressions of interest in new project idea
 - [Activity: JSTOR Topicgraph](jstortg.html) - _not yet started_
 - [Activity: Adam Matthew Mass Observation](ammo.html) - _most of the essential copy is done_
 - [Activity: JSTOR Data for Research](jstordfr.html) - _not yet started_
-- Conclusion
+- Conclusion - _not yet started_
 
 [Do you wish to leave any feedback?](https://goo.gl/forms/KmYw8TnrlVt0lw5i1)
 
