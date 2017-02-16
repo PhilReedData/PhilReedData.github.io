@@ -1,5 +1,5 @@
 ---
-title: JSTOR Topicgraph | Digital Humanities Library Lab: Exploring digital collections, 3 March 2017
+title: JSTOR Topicgraph | Digital Humanities Library Lab - Exploring digital collections, 3 March 2017
 ---
 
 # Digital Humanities Library Lab: Exploring digital collections, 3 March 2017
