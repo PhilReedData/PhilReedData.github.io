@@ -4,14 +4,19 @@ title: Digital Humanities Library Lab: Exploring digital collections, 3 March 20
 
 # Digital Humanities Library Lab: Exploring digital collections, 3 March 2017
 
-## Aims of the workshop
-This workshop is for researchers in the Faculty of Humanities at The University of Manchester who wish to continue exploring digital collections at The University of Manchester Library. The ideas and techniques that you will see and have hands-on experience with might inspire you to develop further Digital Humanities research projects. You will look at digital text collections from publishers at platforms such as JSTOR, Jisc, Adam Matthew and Gale Cengage, using light-touch text and data mining techniques. Some of the activities will involve using a bit of Python code; however, the workshop assumes you may have no prior programming experience.
+This workshop is designed to help Faculty of Humanities researchers develop new and exciting computational projects working with the University Library's digital collections. 
 
-The event is scheduled for 2pm to 5pm on Friday, 3 March 2017 (breaking around 3.30pm for coffee).
-Location: Teaching Suite (Blue 4), Main Library, The University of Manchester Library.
-Computers will be available, though you may bring your own laptop if you wish.
+[DH@Manchester](http://www.digital-humanities.manchester.ac.uk/) is seeking targeted expressions of interest from Faculty of Humanities researchers at all levels to develop new and innovative computational research projects with partners including [the University of Manchester Library](http://www.library.manchester.ac.uk/) and the [School of Computer Science](http://www.cs.manchester.ac.uk/). In anticipation of the formal Call which will go out shortly, this Library Lab will allow researchers at all levels to gain hands-on experience with tools and techniques in order to go on to develop individual research projects with the collections. 
 
-## Overview of the afternoon
+During the afternoon workshop, you will look at digital text collections from publishers on platforms such as JSTOR, Jisc, Adam Matthew and Gale Cengage, using light-touch text and data mining techniques. Some of the activities will involve using a bit of Python code; however, the workshop assumes you may have no prior programming experience.  Computers will be available for all participants, but you may prefer to bring your own laptop.
+
+For further information and any queries, please contact Phil Reed: [Phil.Reed@manchester.ac.uk](mailto:Phil.Reed@manchester.ac.uk) or [dh@manchester.ac.uk](mailto:dh@manchester.ac.uk).
+
+This event is open to all Faculty of Humanities researchers, but numbers are limited, so please register as soon as possible via the Eventbrite page. The event is scheduled for 2pm to 5pm on Friday, 3 March 2017 (breaking around 3.30pm for coffee).
+
+Please note that the formal Call for expressions of interest in new project ideas will go out to the Faculty following this workshop. Attendance at the workshop is not a prerequisite for applying to the Call.  
+
+## Overview of the workshop
 - [Welcome and introduction](welcome.html) - _started_
 - [Activity: Jisc Historical Collections](jischc.html) - _not yet started_
 - [Activity: JSTOR Topicgraph](jstortg.html) - _not yet started_
@@ -19,5 +24,6 @@ Computers will be available, though you may bring your own laptop if you wish.
 - [Activity: JSTOR Data for Research](jstordfr.html) - _not yet started_
 - Conclusion
 
+[Do you wish to leave any feedback?](https://goo.gl/forms/KmYw8TnrlVt0lw5i1)
 
-Go to [Back to top](#aims-of-the-workshop) | [Home](/)
+Go to [Back to top](#digital-humanities-library-lab-exploring-digital-collections-3-march-2017) | [Home](/)

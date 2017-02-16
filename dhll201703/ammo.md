@@ -80,7 +80,7 @@ The __data__ items include:
 3. View your chosen in the regular Adam Matthew web interface (hint, find the URI field).
 4. Can you get to the full text for that document?
 5. _Going further_: Try the second form to look at sections within documents. What differences do you see?
-6. _Going even further_: Write a short Python script that takes a URL, calls the Adam Matthew API, returns JSON data, then does something with that data. I have written the start of the script for you... TBA
+6. _Going even further_: Write a short Python script that takes a URL, calls the Adam Matthew API, returns JSON data, then does something with that data. [I have written the start of the script for you...](https://github.com/PhilReedData/AdamMatthewTry) TBA
 
 
 ### Other matters
