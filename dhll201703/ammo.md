@@ -1,5 +1,5 @@
 ---
-title: Adam Matthew | Digital Humanities Library Lab: Exploring digital collections, 3 March 2017
+title: Adam Matthew - Digital Humanities Library Lab: Exploring digital collections, 3 March 2017
 ---
 
 # Digital Humanities Library Lab: Exploring digital collections, 3 March 2017
