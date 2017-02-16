@@ -12,7 +12,7 @@ During the afternoon workshop, you will look at digital text collections from pu
 
 For further information and any queries, please contact Phil Reed: [Phil.Reed@manchester.ac.uk](mailto:Phil.Reed@manchester.ac.uk) or [dh@manchester.ac.uk](mailto:dh@manchester.ac.uk).
 
-This event is open to all Faculty of Humanities researchers, but numbers are limited, so please register as soon as possible via the Eventbrite page. The event is scheduled for 2pm to 5pm on Friday, 3 March 2017 (breaking around 3.30pm for coffee).
+This event is open to all Faculty of Humanities researchers, but numbers are limited, so please [register as soon as possible via the Eventbrite page](https://www.eventbrite.co.uk/e/digital-humanities-library-lab-exploring-digital-collections-friday-3rd-march-2017-tickets-32115761106). The event is scheduled for 2pm to 5pm on Friday, 3 March 2017 (breaking around 3.30pm for coffee).
 
 Please note that the formal Call for expressions of interest in new project ideas will go out to the Faculty following this workshop. Attendance at the workshop is not a prerequisite for applying to the Call.  
 
