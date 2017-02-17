@@ -44,7 +44,7 @@ Before we dive into any tools or code, let's try a simple, single request.
 You should see a JSON data response. Don't be put off, it's more useful and meaningful than it first appears.
 
 ### Use a simple tool
-I have written a webpage you may use to [build an Adam Matthew API URL](https://PhilReedData.github.io/dhll201703/am-url-builder.html){:target="_blank"} and see returned JSON data. If you are using Google Chrome, the returned JSON data will, after a few seconds, display in a nicer way (pretty printing). 
+I have written a webpage you may use to [build an Adam Matthew API URL](https://PhilReedData.github.io/dhll201703/am-url-builder.html){:target="_blank"} and see returned JSON data. If you are using Google Chrome, the returned JSON data will, after a few seconds, display in a nicer way (pretty printing). If you are using Firefox, you will need to install an add-on called [JSONView](https://addons.mozilla.org/en-us/firefox/addon/jsonview/){:target="_blank"} to view JSON data nicely, or copy paste the data into the [Online JSON Viewer](http://jsonviewer.stack.hu/){:target="_blank"}.
 
 Use this page to search documents by:
 
