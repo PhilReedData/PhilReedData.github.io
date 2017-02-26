@@ -7,8 +7,8 @@ title: Adam Matthew | Digital Humanities Library Lab - Exploring digital collect
 
 ## Activity: Adam Matthew Mass Observation
 
-![Adam Matthew Mass Observation](ammo-home.png)
-![Mass Observation map](ammo-map.png)
+![Adam Matthew Mass Observation](img/ammo-home.png)
+![Mass Observation map](img/ammo-map.png)
 ### What is it? Why use it?
 TBA. ALSO, IMAGES TO FOLLOW.
 
@@ -77,16 +77,16 @@ The __data__ items include:
 - __metadata__ - a list of metatdata items such as title, date, source, rights, and fullText (true/false)
 - __fulltext__ - for a single search result (by id), if available, get the full text (could be slow)
 
-![Adam Matthew Mass Observation](ammo-110.png)
-![Adam Matthew Mass Observation](download-json-ie.png)
-![Adam Matthew Mass Observation](ammo-120.png)
-![Adam Matthew Mass Observation](ammo-122.png)
-![Adam Matthew Mass Observation](ammo-124.png)
-![Adam Matthew Mass Observation](ammo-126.png)
-![Adam Matthew Mass Observation](ammo-130.png)
-![Adam Matthew Mass Observation](ammo-150.png)
-![Adam Matthew Mass Observation](ammo-160.png)
-![Adam Matthew Mass Observation](ammo-170.png)
+![Adam Matthew Mass Observation](img/ammo-110.png)
+![Adam Matthew Mass Observation](img/download-json-ie.png)
+![Adam Matthew Mass Observation](img/ammo-120.png)
+![Adam Matthew Mass Observation](img/ammo-122.png)
+![Adam Matthew Mass Observation](img/ammo-124.png)
+![Adam Matthew Mass Observation](img/ammo-126.png)
+![Adam Matthew Mass Observation](img/ammo-130.png)
+![Adam Matthew Mass Observation](img/ammo-150.png)
+![Adam Matthew Mass Observation](img/ammo-160.png)
+![Adam Matthew Mass Observation](img/ammo-170.png)
 
 ### Exercise
 1. Try using the webpage to run a query. Consider using CQL syntax such as "prox".
