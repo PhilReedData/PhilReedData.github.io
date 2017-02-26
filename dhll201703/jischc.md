@@ -52,4 +52,5 @@ You may download as a PDF, and the full text may be searchable using the usual C
 ### What else...
 
 
-Go to [Back to top](#activity-jisc-historical-collections) | [Parent](index.html) | [Home](/) | [Prev](welcome.html) | [Next](jstortg.html)
+[Back to top](#activity-jisc-historical-collections) | [^ Up a level](index.html) | [< Prev](welcome.html) | [Next >](jstortg.html)
+[Home](/) 
