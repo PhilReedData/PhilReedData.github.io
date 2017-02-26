@@ -49,7 +49,7 @@ Show whole text...
 
 You may download as a PDF, and the full text may be searchable using the usual Ctrl/Cmd+F function...
 
-### 
+### What else...
 
 
-Go to [Back to top](#activity-jisc-historical-collections) | [Parent](index.html) | [Home](/)
+Go to [Back to top](#activity-jisc-historical-collections) | [Parent](index.html) | [Home](/) | [Prev](welcome.html) | [Next](jstortg.html)

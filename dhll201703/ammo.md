@@ -91,4 +91,4 @@ The __data__ items include:
 This is not part of the usual service from Adam Matthew, or from academic libraries in the UK. There is some guidance from [The Adam Matthew API](http://developers.amdigital.co.uk/API/Overview).
 
 
-Go to [Back to top](#activity-adam-matthew-mass-observation) | [Parent](index.html) | [Home](/)
+Go to [Back to top](#activity-adam-matthew-mass-observation) | [Parent](index.html) | [Home](/) | [Prev](jstortg.html)
