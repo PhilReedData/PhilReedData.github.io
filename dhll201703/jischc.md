@@ -5,7 +5,7 @@ title: Jisc Historical Collections | Digital Humanities Library Lab - Exploring 
 # Digital Humanities Library Lab: Exploring digital collections, 3 March 2017
 
 ## Activity: Jisc Historical Collections
-We will have a look at [Jisc Historical Collections](http://historicaltexts.jisc.ac.uk/). This interface  provides a single search interface to multiple collections:
+We will have a look at [Jisc Historical Collections](http://historicaltexts.jisc.ac.uk/){:target="_blank"}. This interface  provides a single search interface to multiple collections:
 
 - Early English Books Online (EEBO) 1473-1700
 - Eighteenth Century Collections Online (ECCO) 1701-1800
@@ -13,32 +13,42 @@ We will have a look at [Jisc Historical Collections](http://historicaltexts.jisc
 
 ![Jisc Historical Collections](img/jhc-110.png)
 
-It offers elementary Digital Humanities techniques...
+_Objective_: We will use Jisc Historical Collections to learn about searching multiple digital text collections for particular words allowing for variations in spelling, typing and printing.
 
 ### Fuzzy matching, variant spellings and more
 
 ![Jisc Historical Collections](img/jhc-120.png)
+You can use [Jisc Historical Collections](http://historicaltexts.jisc.ac.uk/){:target="_blank"} from anywhere on University campus, or off-campus via your University username and password (Shibboleth).
 
-Advanced search...
+If you click on the __Advanced search__ button, you will see extra search fields including publication date, choice of collections, and which part of the text to look at (title, author, etc.). 
 
 ![Jisc Historical Collections](img/jhc-130.png)
 
-Variant spellings
+Below the search text field is a drop-down menu labelled __Fuzzy and Variants__. If you type a word such as "colour" in the search text field, you can choose from the options below to include spelling and typing equivalent words for matching. This can also help if the text you are looking at is not perfectly transcribed by the OCR tools (which is quite likely).
+
+#### Variant spellings
+These may be historical alternative spelling variants for the word.
 ![Jisc Historical Collections](img/jhc-140.png)
 
-Variant forms
+#### Variant forms
 ![Jisc Historical Collections](img/jhc-142.png)
 
-Misspellings
+#### Misspellings
+Common misspellings are suggested.
 ![Jisc Historical Collections](img/jhc-144.png)
 
-Printer variations
+#### Printer variations
+Sometimes a character (or several characters) are substiuted in type, for example "w" (one "doubleyoo") may be encoded as "vv" (two "vees").
 ![Jisc Historical Collections](img/jhc-146.png)
 
-Fuzzy matching
+#### Fuzzy matching
+Allows for matching any words within a set spelling distance (no suggestions).
 ![Jisc Historical Collections](img/jhc-148.png)
 
-Search results, including chart...
+Each of these suggested variants can be disabled by clicking on its "X" button.
+
+### Search results
+After clicking the __Search__ button, the results list is shown, preceeded by a chart of matches against publication year. You can select a date range from the chart to further limit the search (simply drag the mouse over the years you want), and you can further refine using the filters on the left.
 ![Jisc Historical Collections](img/jhc-150.png)
 
 Matches within text...
@@ -49,7 +59,9 @@ Show whole text...
 
 You may download as a PDF, and the full text may be searchable using the usual Ctrl/Cmd+F function...
 
-### What else...
+### Activites
+1. Try another word that you expect there may be spelling or typing variants for. Are the suggestions what you would expect?
+
 
 
 [Back to top](#activity-jisc-historical-collections) | [^ Up a level](index.html) | [< Prev](welcome.html) | [Next >](jstortg.html)
