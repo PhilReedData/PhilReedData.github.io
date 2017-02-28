@@ -34,6 +34,6 @@ The process takes about 10 minutes, and you will get an email when the visualisa
 - Did Topicgraph suggest the themes you predicted? Why might they be different?
 
 
-[Back to top](#activity-jstor-topicgraph) | [Parent](index.html) | [< Prev](jischc.html) | [Next >](ammo.html)
+[:arrow_up_small: Back to top](#activity-jstor-topicgraph) | [:arrow_double_up: Parent](index.html) | [:arrow_backward: Prev](jischc.html) | [:arrow_forward: Next](ammo.html)
 
-[Home](/)
+[:house: Home](/)
