@@ -5,7 +5,13 @@ title: JSTOR Topicgraph | Digital Humanities Library Lab - Exploring digital col
 # Digital Humanities Library Lab: Exploring digital collections, 3 March 2017
 
 ## Activity: JSTOR Topicgraph
-A new tool to help explore scholarly books is [JSTOR Topicgraph](https://labs.jstor.org/topicgraph/){:target="_blank"}. We will look at visualisations of monographs and try uploading PDFs of our own.
+A new tool to help explore scholarly books is [JSTOR Topicgraph](https://labs.jstor.org/topicgraph/){:target="_blank"}. We will look at visualisations of the themes within longform scholarly works and e-books.
+
+JSTOR Labs developed a design thinking process to explore ways to increase the value of longform scholarly argument. This 3:44 video documents the _Reimagining the Monograph_ project and introduced the Topicgraph prototype.
+[![Reimagining the Monograph](img/jtg-video.png)](https://www.youtube.com/watch?v=FQ6nV_GWxxo "Reimagining the Monograph")
+
+We will look at one of the outputs from the project, called Topicgraph. In their words, Topicgraph will allow you to...
+> Understand at a glance the topics covered in a book, then jump straight to pages about topics you're researching.
 
 ![JSTOR Topicgraph](img/jtg-110.png)
 
