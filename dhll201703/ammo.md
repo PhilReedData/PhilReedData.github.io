@@ -6,16 +6,17 @@ title: Adam Matthew | Digital Humanities Library Lab - Exploring digital collect
 
 
 ## Activity: Adam Matthew Mass Observation
-### What is it? How can I use it?
 ![Adam Matthew Mass Observation](img/ammo-home.png)
+### What is it? How can I use it?
 [Mass Observation Online](http://www.massobservation.amdigital.co.uk/){:target="_blank"} is a online collection from Adam Matthew Digital. The University of Manchester subscribes to this resource which includes original manuscript and typescript papers created and collected by the Mass Observation organisation, as well as printed publications, photographs and interactive features. It is known, in part, for its collection of personal diaries from 1935 to 1967, which can be explored via a typical search page or an interactive map of the British Isles.
 ![Mass Observation map](img/ammo-map.png)
 
+#### Objectives
 This resource has been selected for this afternoon's workshop because of its potential for data mining, and we will have a very introductory look at how and why you might use its alternative API interface to the regular web interface.
 
-### Getting started
+### Overview
 
-- How does it work?
+- What is an API interface, and how do I use it?
 - Get the API key
 - Practice in the browser
 - Use a simple tool
@@ -28,10 +29,10 @@ Before we address that question, let's understand what happens with a regular we
 
 A typical web request (or visit to a web page) involves a [URL](https://techterms.com/definition/url){:target="_blank"} typed in the address bar of your web browser. It points to a specific site, and a specific page within that site - click in the address bar now to see the URL of this page. 
 ~~~
-Dummy format for a site (root):
+Dummy format for a site (root) URL:
 http://baseurl.co.uk/
 
-Dummy format for a site page:
+Dummy format for a site page URL:
 http://baseurl.co.uk/page.html
 ~~~
 For example, `http://www.massobservation.amdigital.co.uk/`
@@ -45,8 +46,10 @@ Really, this web page is an HTML document delivered from a web server to your br
 <html>
 	<body>
 		<h1>Mass Observation Online</h1>
-		<p>This HTML code is very much simplified!</p>
-	...
+		<p>This HTML code is <em>very</em> much simplified!</p>
+		...
+	</body>
+</html>
 ```
 
 #### When pages return structured data
@@ -58,11 +61,11 @@ http://baseurl.co.uk/page.html?query=apples
 Dummy format for a search "apples", return first 25 results:
 http://baseurl.co.uk/page.html?query=apples&take=25
 ~~~
-The data it returns is still text data, but instead of using HTML markup it uses [JSON](https://en.wikipedia.org/wiki/JSON#Example){:target="_blank"} markup. JSON data is structured as dictionary "key-value" pairs, that is, some label or key is assigned some value, and there can be many of them. For example:
+The data it returns is still text data, but instead of using HTML markup it uses [JSON](https://en.wikipedia.org/wiki/JSON#Example){:target="_blank"} markup. JSON (pronounced "JAY-son") data is structured as dictionary `key:value` pairs, that is, some label or key is assigned some value. If there is more than one pair, they are separated by commas. The value part can itself be a list of `key:value` pairs. For example:
 ```json
 {
 	timestamp: "2/26/2017 8:10:10 PM",
-	totalResults: "2",
+	totalResults: "25",
 	data: [
 		{
 			type: "apple",
@@ -73,27 +76,28 @@ The data it returns is still text data, but instead of using HTML markup it uses
 			type: "apple",
 			id: "102",
 			variety: "Pink Lady"
-		}
+		},
+		...
 	]
 }
 ``` 
 
 Looking at JSON data in the web browser is not particularly helpful. It is designed for programming languages to interpret, making effective use of the nested key-value pairs structure. JSON data will look better in some browsers, at least make it readable. 
 
-If you got JSON data back from a URL while using Internet Explorer, you will be offered to save the response as a file. 
+If you got JSON data back from a URL while using Internet Explorer, you will be offered to save the response as a file. This is not very helpful for us, better to use another browser that can show the responses directly.
 ![JSON response Internet Explorer](img/download-json-ie.png)
 
-If you use Safari or Firefox, you will see the JSON data in the browser, but as one long line with no colour or formatting.
+If you use Safari or Firefox, you will see the JSON data in the browser, but as one long line with no colour or formatting. This is not very readable by people, although fine for computers.
 ![JSON response Safari](img/ammo-110.png)
 
-If you use Google Chrome, the JSON data will, after a few seconds, be formatting with clear spacing and colouring.
+If you use Google Chrome, the JSON data will, after a few seconds, be formatting with clear spacing and colouring. Much better! We can now see the structure.
 ![JSON response Chrome](img/ammo-130.png)
 
 ### Get the API key
 For the purposes of security, the URLs that you use to access the Adam Matthew API need to include a 32-digit key. The key given to us for the purpose of this workshop is not included in this web page as it could be viewed by anyone. Please await instructions on the afternoon! :key:
 - See [Getting the Adam Matthew API Key](am-key.html) 
 
-The files you will download have a dummy key XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX which you can replace with the real one. Also, the service can be used from any computer on University campus (i.e. we are restricted by IP range).
+The links below have a dummy key XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX which you can replace with the real one. Also, the service can be used from any computer on University campus (i.e. we are restricted by IP range).
 
 ### Practice in the browser
 Before we dive into any tools or code, let's try a simple, single request.
@@ -153,9 +157,9 @@ The __data__ items include:
 
 
 ### Exercise
-1. Try using the webpage to run a query. Consider using CQL syntax such as "prox".
+1. Try using the [build an Adam Matthew API URL webpage](https://PhilReedData.github.io/dhll201703/am-url-builder.html){:target="_blank"} to run a query. Consider using CQL syntax such as "prox".
 2. Select a result you want to know more about. 
-3. View your chosen in the regular Adam Matthew web interface (hint, find the URI field).
+3. View your chosen in the regular Adam Matthew web interface (hint, find the __uri__ field).
 4. Can you get to the full text for that document?
 5. _Going further_: Try the second form to look at sections within documents. What differences do you see?
 6. _Going even further_: Write a short Python script that takes a URL, calls the Adam Matthew API, returns JSON data, then does something with that data. [I have written the start of the script for you...](https://github.com/PhilReedData/AdamMatthewTry) TBA
@@ -165,9 +169,9 @@ The __data__ items include:
 (May put this in the Conclusions section) Data mining agreements, copyright... TBA
 
 ### Support from Adam Matthew
-This is not part of the usual service from Adam Matthew, or from academic libraries in the UK. There is some guidance from [The Adam Matthew API](http://developers.amdigital.co.uk/API/Overview).
+This is not part of the usual service from Adam Matthew, or from academic libraries in the UK. There is, however, some guidance from [The Adam Matthew API](http://developers.amdigital.co.uk/API/Overview).
 
 
-[:arrow_up_small: Back to top](#activity-adam-matthew-mass-observation) | [:arrow_double_up: Parent](index.html) | [:arrow_backward: Prev](jstortg.html) | [:arrow_forward: Next](index.html)
+[:arrow_up_small: Back to top](#activity-adam-matthew-mass-observation) | [:arrow_double_up: Parent](index.html) | [:arrow_backward: Prev](jstortg.html) | [:arrow_forward: Next](wrapping.html)
 
 [:house: Home](/)

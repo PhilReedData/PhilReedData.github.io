@@ -18,12 +18,11 @@ Please note that the formal Call for expressions of interest in new project idea
 
 ## Overview of the workshop
 - [Welcome and introduction](welcome.html) - _started_
-- [Activity: Jisc Historical Collections](jischc.html) - _not yet started_
-- [Activity: JSTOR Topicgraph](jstortg.html) - _not yet started_
-- [Activity: Adam Matthew Mass Observation](ammo.html) - _most of the essential copy is done_
-- [Activity: JSTOR Data for Research](jstordfr.html) - _not yet started_
-- Conclusion - _not yet started_
+- [Activity: Jisc Historical Collections](jischc.html) - _mostly done_
+- [Activity: JSTOR Topicgraph](jstortg.html) - _mostly done_
+- [Activity: Adam Matthew Mass Observation](ammo.html) - _mostly done, except Python_
+- [Wrapping up](wrapping.html) - _mostly done_
 
-[Do you wish to leave any feedback?](https://goo.gl/forms/KmYw8TnrlVt0lw5i1)
+[:thumbsup: Do you wish to leave any feedback?](https://goo.gl/forms/KmYw8TnrlVt0lw5i1)
 
-Go to [Back to top](#digital-humanities-library-lab-exploring-digital-collections-3-march-2017) | [Home](/)
+[:arrow_up_small: Back to top](#digital-humanities-library-lab-exploring-digital-collections-3-march-2017) | [:house: Home](/)
