@@ -48,7 +48,7 @@ Allows for matching any words within a set spelling distance (no suggestions).
 Each of these suggested variants can be disabled by clicking on its "X" button.
 
 ### Search results
-After clicking the __Search__ button, the results list is shown, preceeded by a chart of matches against publication year. You can select a date range from the chart to further limit the search (simply drag the mouse over the years you want), and you can further refine using the filters on the left.
+After clicking the :mag:__Search__ button, the results list is shown, preceeded by a chart of matches against publication year. You can select a date range from the chart to further limit the search (simply drag the mouse over the years you want), and you can further refine using the filters on the left.
 ![Jisc Historical Collections](img/jhc-150.png)
 
 Matches within text...
@@ -57,7 +57,7 @@ Matches within text...
 Show whole text...
 ![Jisc Historical Collections](img/jhc-170.png)
 
-You may download as a PDF, and the full text may be searchable using the usual Ctrl/Cmd+F function...
+You may download as a PDF, and the full text may be searchable using the usual Ctrl/Cmd+F function.
 
 ### Activites
 1. Try another word that you expect there may be spelling or typing variants for. Are the suggestions what you would expect?
