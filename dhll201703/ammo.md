@@ -26,7 +26,15 @@ This resource has been selected for this afternoon's workshop because of its pot
 ### What is an API interface, and how do I use it?
 Before we address that question, let's understand what happens with a regular web interface.
 
-A typical web request (or visit to a web page) involves a [URL](https://techterms.com/definition/url){:target="_blank"} typed in the address bar of your web browser. It points to a specific site, and a specific page within that site - click in the address bar now to see the URL of this page. For example, `http://www.massobservation.amdigital.co.uk/`
+A typical web request (or visit to a web page) involves a [URL](https://techterms.com/definition/url){:target="_blank"} typed in the address bar of your web browser. It points to a specific site, and a specific page within that site - click in the address bar now to see the URL of this page. 
+~~~
+Dummy format for a site (root):
+http://baseurl.co.uk/
+
+Dummy format for a site page:
+http://baseurl.co.uk/page.html
+~~~
+For example, `http://www.massobservation.amdigital.co.uk/`
 ![Web page](img/ammo-010.png)
 
 After you enter the URL, either by typing it or clicking on a link that contains it, you will be taken to a web page. For example, click on __Contents__ in the menu to move to the next page which has the URL `http://www.massobservation.amdigital.co.uk/Documents/Landing`
@@ -41,14 +49,50 @@ Really, this web page is an HTML document delivered from a web server to your br
 	...
 ```
 
-Using the Adam Matthew API is similar. A request takes the form of a URL, which points to a specific bit of data from the Adam Matthew server. It can be used from any computer on University campus (i.e. we are restricted by IP range). You can type or paste Adam Matthew request URLs into your web browser's address bar to return data. The data it returns is still text data, but instead of using HTML markup it uses [JSON](https://en.wikipedia.org/wiki/JSON#Example){:target="_blank"} markup.
+Using the Adam Matthew API is similar. A request takes the form of a URL, which points to a specific bit of data from the Adam Matthew server. You can type or paste Adam Matthew request URLs into your web browser's address bar to return data. The details of the search follow the question mark '?', and each feature of the search is separated by an ampersand '&'.
+~~~
+Dummy format for a search "apples":
+http://baseurl.co.uk/page.html?query=apples
+
+Dummy format for a search "apples", return first 25 results:
+http://baseurl.co.uk/page.html?query=apples&take=25
+~~~
+The data it returns is still text data, but instead of using HTML markup it uses [JSON](https://en.wikipedia.org/wiki/JSON#Example){:target="_blank"} markup. JSON data is structured as dictionary "key-value" pairs, that is, some label or key is assigned some value, and there can be many of them. For example:
+```json
+{
+	timestamp: "2/26/2017 8:10:10 PM",
+	totalResults: "2",
+	data: [
+		{
+			type: "apple",
+			id: "101",
+			variety: "Granny Smith"
+		},
+		{
+			type: "apple",
+			id: "102",
+			variety: "Pink Lady"
+		}
+	]
+}
+``` 
 
 Looking at JSON data in the web browser is not particularly helpful. It is designed for programming languages to interpret, making effective use of the nested key-value pairs structure. JSON data will look better in some browsers, at least make it readable. 
 
-### Get the API key
-For the purposes of security, the URLs that you use to access the Adam Matthew API need to include a 32-digit key. The key given to us for the purpose of this workshop is not included in this web page as it could be viewed by anyone. Please await instructions on the afternoon! See [Getting the Adam Matthew API Key](am-key.html) 
+If you got JSON data back from a URL while using Internet Explorer, you will be offered to save the response as a file. 
+![JSON response Internet Explorer](img/download-json-ie.png)
 
-The files you will download have a dummy key XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX which you can replace with the real one.
+If you use Safari or Firefox, you will see the JSON data in the browser, but as one long line with no colour or formatting.
+![JSON response Safari](img/ammo-110.png)
+
+If you use Google Chrome, the JSON data will, after a few seconds, be formatting with clear spacing and colouring.
+![JSON response Chrome](img/ammo-130.png)
+
+### Get the API key
+For the purposes of security, the URLs that you use to access the Adam Matthew API need to include a 32-digit key. The key given to us for the purpose of this workshop is not included in this web page as it could be viewed by anyone. Please await instructions on the afternoon! 
+- :key: See [Getting the Adam Matthew API Key](am-key.html) 
+
+The files you will download have a dummy key XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX which you can replace with the real one. Also, the service can be used from any computer on University campus (i.e. we are restricted by IP range).
 
 ### Practice in the browser
 Before we dive into any tools or code, let's try a simple, single request.
@@ -93,8 +137,6 @@ The __data__ items include:
 - __metadata__ - a list of metatdata items such as title, date, source, rights, and fullText (true/false)
 - __fulltext__ - for a single search result (by id), if available, get the full text (could be slow)
 
-![Adam Matthew Mass Observation](img/ammo-110.png)
-![Adam Matthew Mass Observation](img/download-json-ie.png)
 ![Adam Matthew Mass Observation](img/ammo-120.png)
 ![Adam Matthew Mass Observation](img/ammo-130.png)
 ![Adam Matthew Mass Observation](img/ammo-150.png)
