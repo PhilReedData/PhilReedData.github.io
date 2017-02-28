@@ -29,7 +29,7 @@ Before we address that question, let's understand what happens with a regular we
 A typical web request (or visit to a web page) involves a [URL](https://techterms.com/definition/url){:target="_blank"} typed in the address bar of your web browser. It points to a specific site, and a specific page within that site - click in the address bar now to see the URL of this page. For example, `http://www.massobservation.amdigital.co.uk/`
 ![Web page](img/ammo-010.png)
 
-After you enter the URL, either by typing it or clicking on a link that contains it, you will be taken to a web page. For example, click on `Contents` to move to the next page which has the URL `http://www.massobservation.amdigital.co.uk/Documents/Landing`
+After you enter the URL, either by typing it or clicking on a link that contains it, you will be taken to a web page. For example, click on __Contents__ in the menu to move to the next page which has the URL `http://www.massobservation.amdigital.co.uk/Documents/Landing`
 ![Next web page](img/ammo-020.png)
 
 Really, this web page is an HTML document delivered from a web server to your browser; that is, a text file written with HTML tags to give structure is rendered onto the screen. The HTML might look a bit like this.
@@ -46,7 +46,7 @@ Using the Adam Matthew API is similar. A request takes the form of a URL, which 
 Looking at JSON data in the web browser is not particularly helpful. It is designed for programming languages to interpret, making effective use of the nested key-value pairs structure. JSON data will look better in some browsers, at least make it readable. 
 
 ### Get the API key
-For the purposes of security, the URLs that you use to access the Adam Matthew API need to include a 32-digit key. The key given to us for the purpose of this workshop is not included in this web page as it could be viewed by anyone. Please await instructions on the afternoon! 
+For the purposes of security, the URLs that you use to access the Adam Matthew API need to include a 32-digit key. The key given to us for the purpose of this workshop is not included in this web page as it could be viewed by anyone. Please await instructions on the afternoon! See [Getting the Adam Matthew API Key](am-key.html) 
 
 The files you will download have a dummy key XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX which you can replace with the real one.
 
@@ -96,9 +96,6 @@ The __data__ items include:
 ![Adam Matthew Mass Observation](img/ammo-110.png)
 ![Adam Matthew Mass Observation](img/download-json-ie.png)
 ![Adam Matthew Mass Observation](img/ammo-120.png)
-![Adam Matthew Mass Observation](img/ammo-122.png)
-![Adam Matthew Mass Observation](img/ammo-124.png)
-![Adam Matthew Mass Observation](img/ammo-126.png)
 ![Adam Matthew Mass Observation](img/ammo-130.png)
 ![Adam Matthew Mass Observation](img/ammo-150.png)
 ![Adam Matthew Mass Observation](img/ammo-160.png)
