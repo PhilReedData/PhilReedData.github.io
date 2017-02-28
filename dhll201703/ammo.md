@@ -6,11 +6,12 @@ title: Adam Matthew | Digital Humanities Library Lab - Exploring digital collect
 
 
 ## Activity: Adam Matthew Mass Observation
-
+### What is it? How can I use it?
 ![Adam Matthew Mass Observation](img/ammo-home.png)
+[Mass Observation Online](http://www.massobservation.amdigital.co.uk/){:target="_blank"} is a online collection from Adam Matthew Digital. The University of Manchester subscribes to this resource which includes original manuscript and typescript papers created and collected by the Mass Observation organisation, as well as printed publications, photographs and interactive features. It is known, in part, for its collection of personal diaries from 1935 to 1967, which can be explored via a typical search page or an interactive map of the British Isles.
 ![Mass Observation map](img/ammo-map.png)
-### What is it? Why use it?
-TBA. ALSO, IMAGES TO FOLLOW.
+
+This resource has been selected for this afternoon's workshop because of its potential for data mining, and we will have a very introductory look at how and why you might use its alternative API interface to the regular web interface.
 
 ### Getting started
 
@@ -22,8 +23,23 @@ TBA. ALSO, IMAGES TO FOLLOW.
 - Other matters
 - Support from Adam Matthew
 
-### How does it work?
-A typical web request involves a [URL](https://techterms.com/definition/url){:target="_blank"} typed in the address bar of your web browser. It points to a specific site, and a specific page within that site - click in the address bar now to see the URL of this page. After you enter the URL, either by typing it or clicking on a link that contains it, you will be taken to a web page. Really, this web page is an HTML document delivered from a web server to your browser; that is, a text file written with HTML tags to give structure is rendered onto the screen.
+### What is an API interface, and how do I use it?
+Before we address that question, let's understand what happens with a regular web interface.
+
+A typical web request (or visit to a web page) involves a [URL](https://techterms.com/definition/url){:target="_blank"} typed in the address bar of your web browser. It points to a specific site, and a specific page within that site - click in the address bar now to see the URL of this page. For example, `http://www.massobservation.amdigital.co.uk/`
+![Web page](img/ammo-010.png)
+
+After you enter the URL, either by typing it or clicking on a link that contains it, you will be taken to a web page. For example, click on `Contents` to move to the next page which has the URL `http://www.massobservation.amdigital.co.uk/Documents/Landing`
+![Next web page](img/ammo-020.png)
+
+Really, this web page is an HTML document delivered from a web server to your browser; that is, a text file written with HTML tags to give structure is rendered onto the screen. The HTML might look a bit like this.
+```html
+<html>
+	<body>
+		<h1>Mass Observation Online</h1>
+		<p>This HTML code is very much simplified!</p>
+	...
+```
 
 Using the Adam Matthew API is similar. A request takes the form of a URL, which points to a specific bit of data from the Adam Matthew server. It can be used from any computer on University campus (i.e. we are restricted by IP range). You can type or paste Adam Matthew request URLs into your web browser's address bar to return data. The data it returns is still text data, but instead of using HTML markup it uses [JSON](https://en.wikipedia.org/wiki/JSON#Example){:target="_blank"} markup.
 
@@ -104,4 +120,6 @@ The __data__ items include:
 This is not part of the usual service from Adam Matthew, or from academic libraries in the UK. There is some guidance from [The Adam Matthew API](http://developers.amdigital.co.uk/API/Overview).
 
 
-Go to [Back to top](#activity-adam-matthew-mass-observation) | [Parent](index.html) | [Home](/) | [Prev](jstortg.html)
+[:arrow_up_small: Back to top](#activity-adam-matthew-mass-observation) | [:arrow_double_up: Parent](index.html) | [:arrow_backward: Prev](jstortg.html) | [:arrow_forward: Next](index.html)
+
+[:house: Home](/)
