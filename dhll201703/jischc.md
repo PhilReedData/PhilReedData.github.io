@@ -61,8 +61,14 @@ You may download as a PDF, and the full text may be searchable using the usual C
 
 ### Activites
 1. Try another word that you expect there may be spelling or typing variants for. Are the suggestions what you would expect?
+2. Try a search for something like the following. Do the variants help you to find more relevant results, and quicker?
+- Title: contains "illumination" with variant spellings, variant forms, misspellings and printer replacements
+- Date: 1701-1900
+- Place of publication: London
+	
 
 
 
-[Back to top](#activity-jisc-historical-collections) | [^ Up a level](index.html) | [< Prev](welcome.html) | [Next >](jstortg.html)
-[Home](/) 
+[:arrow_up_small: Back to top](#activity-jisc-historical-collections) | [:arrow_double_up: Parent](index.html) | [:arrow_backward: Prev](welcome.html) | [Next :arrow_forward:](jstortg.html)
+
+[:arrow_double_up: Home](/) 
