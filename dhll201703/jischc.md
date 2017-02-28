@@ -71,4 +71,4 @@ You may download as a PDF, and the full text may be searchable using the usual C
 
 [Back to top](#activity-jisc-historical-collections) | [Parent](index.html) | [< Prev](welcome.html) | [Next >](jstortg.html)
 
-[\u1F3E0 Home](/) 
+[:house: Home](/) 
