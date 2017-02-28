@@ -27,6 +27,6 @@ How to install Python on the "Managed Desktop" at The University of Manchester:
 - Click "Install" and wait.
 
 
-[:arrow_up_small: Back to top](#honorable-mention-jstor-data-for-research) | [arrow_double_up: Parent](wrapping.html) 
+[:arrow_up_small: Back to top](#honorable-mention-jstor-data-for-research) | [:arrow_double_up: Parent](wrapping.html) 
 
 [:house: Home](/)

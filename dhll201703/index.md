@@ -17,7 +17,7 @@ This event is open to all Faculty of Humanities researchers, but numbers are lim
 Please note that the formal Call for expressions of interest in new project ideas will go out to the Faculty following this workshop. Attendance at the workshop is not a prerequisite for applying to the Call.  
 
 ## Overview of the workshop
-- [Welcome and introduction](welcome.html) - _started_
+- [Welcome and introduction](welcome.html) - _mostly done_
 - [Activity: Jisc Historical Collections](jischc.html) - _mostly done_
 - [Activity: JSTOR Topicgraph](jstortg.html) - _mostly done_
 - [Activity: Adam Matthew Mass Observation](ammo.html) - _mostly done, except Python_
