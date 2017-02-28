@@ -49,6 +49,7 @@ Really, this web page is an HTML document delivered from a web server to your br
 	...
 ```
 
+#### When pages return structured data
 Using the Adam Matthew API is similar. A request takes the form of a URL, which points to a specific bit of data from the Adam Matthew server. You can type or paste Adam Matthew request URLs into your web browser's address bar to return data. The details of the search follow the question mark '?', and each feature of the search is separated by an ampersand '&'.
 ~~~
 Dummy format for a search "apples":
@@ -89,37 +90,49 @@ If you use Google Chrome, the JSON data will, after a few seconds, be formatting
 ![JSON response Chrome](img/ammo-130.png)
 
 ### Get the API key
-For the purposes of security, the URLs that you use to access the Adam Matthew API need to include a 32-digit key. The key given to us for the purpose of this workshop is not included in this web page as it could be viewed by anyone. Please await instructions on the afternoon! 
-- :key: See [Getting the Adam Matthew API Key](am-key.html) 
+For the purposes of security, the URLs that you use to access the Adam Matthew API need to include a 32-digit key. The key given to us for the purpose of this workshop is not included in this web page as it could be viewed by anyone. Please await instructions on the afternoon! :key:
+- See [Getting the Adam Matthew API Key](am-key.html) 
 
 The files you will download have a dummy key XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX which you can replace with the real one. Also, the service can be used from any computer on University campus (i.e. we are restricted by IP range).
 
 ### Practice in the browser
 Before we dive into any tools or code, let's try a simple, single request.
-1. Copy the example URL request below (all one 'word')
+1. Copy the example URL request below (one line)
 2. Paste into the address bar of a new browser window or tab.
-3. Replace the API key! (Copy and paste.)
+3. __Replace the API key!__ (Copy and paste.)
 4. Press Enter. 
 
-`https://api.amdigital.co.uk/1.0/massobservation/documents?apiKey=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&take=1`
+~~~
+https://api.amdigital.co.uk/1.0/massobservation/documents?apiKey=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&take=1
+~~~
 
+![How the URL looks](img/ammo-120.png)
 You should see a JSON data response. Don't be put off, it's more useful and meaningful than it first appears.
 
+If you are using Firefox, you will need to install an add-on called [JSONView](https://addons.mozilla.org/en-us/firefox/addon/jsonview/){:target="_blank"} to view JSON data nicely. Alternatively, or if you are a Safari user, copy and paste the data into the [Online JSON Viewer](http://jsonviewer.stack.hu/){:target="_blank"}.
+![Practice in Safari](img/ammo-150.png)
+Having given those alternatives, it might be easier to use Google Chrome, where the returned JSON data will, after a few seconds, display in a nicer way (pretty printing). 
+![Practice in Chrome](img/ammo-160.png)
+
+
 ### Use a simple tool
-I have written a webpage you may use to [build an Adam Matthew API URL](https://PhilReedData.github.io/dhll201703/am-url-builder.html){:target="_blank"} and see returned JSON data. If you are using Google Chrome, the returned JSON data will, after a few seconds, display in a nicer way (pretty printing). If you are using Firefox, you will need to install an add-on called [JSONView](https://addons.mozilla.org/en-us/firefox/addon/jsonview/){:target="_blank"} to view JSON data nicely, or copy paste the data into the [Online JSON Viewer](http://jsonviewer.stack.hu/){:target="_blank"}.
+I have written a webpage you may use to [build an Adam Matthew API URL](https://PhilReedData.github.io/dhll201703/am-url-builder.html){:target="_blank"}, call the API, and see returned JSON data. 
 ![Adam Matthew API builder, aplha](img/adam-matthew-api-builder.png)
 
-Use this page to search documents by:
+Use this page to search documents by these fields:
+
+- __query__ - the text to search for, parsed as [Contextual Query Language (CQL)](http://developers.amdigital.co.uk/API/CQL){:target="_blank"}
+- __take__ - number of records to return, up to 200 (optional)
+- __skip__ - the record number to start at from the list of results (optional)
+
+...or, if you know the id of a specific document:
 
 - __id__ - to return a specific document and its full text
 
-...or any combination of the following.
+Complete some of the fields above, and paste in the API key, and press the __"Create URL and run"__ button.
 
-- __query__ - the text to search for, parsed as [Contextual Query Language (CQL)](http://developers.amdigital.co.uk/API/CQL){:target="_blank"}
-- __take__ - number of records to return, up to 200
-- __skip__ - the record number to start at from the list of results
-
-Complete some of the fields above, and paste in the API key, and press the "Create URL and run" button.
+#### Results
+![Adam Matthew Mass Observation](img/ammo-170.png)
 
 The returned JSON data has a structure which includes:
 
@@ -137,11 +150,7 @@ The __data__ items include:
 - __metadata__ - a list of metatdata items such as title, date, source, rights, and fullText (true/false)
 - __fulltext__ - for a single search result (by id), if available, get the full text (could be slow)
 
-![Adam Matthew Mass Observation](img/ammo-120.png)
-![Adam Matthew Mass Observation](img/ammo-130.png)
-![Adam Matthew Mass Observation](img/ammo-150.png)
-![Adam Matthew Mass Observation](img/ammo-160.png)
-![Adam Matthew Mass Observation](img/ammo-170.png)
+
 
 ### Exercise
 1. Try using the webpage to run a query. Consider using CQL syntax such as "prox".
