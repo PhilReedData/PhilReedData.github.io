@@ -69,6 +69,6 @@ You may download as a PDF, and the full text may be searchable using the usual C
 
 
 
-[:arrow_up_small: Back to top](#activity-jisc-historical-collections) | [:arrow_double_up: Parent](index.html) | [:arrow_backward: Prev](welcome.html) | [Next :arrow_forward:](jstortg.html)
+[Back to top](#activity-jisc-historical-collections) | [Parent](index.html) | [< Prev](welcome.html) | [Next >](jstortg.html)
 
-[:arrow_double_up: Home](/) 
+[\u1F3E0 Home](/) 
