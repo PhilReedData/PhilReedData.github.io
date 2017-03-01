@@ -21,7 +21,6 @@ This resource has been selected for this afternoon's workshop because of its pot
 - Practice in the browser
 - Use a simple tool
 - Exercise
-- Other matters
 - Support from Adam Matthew
 
 ### What is an API interface, and how do I use it?
@@ -162,11 +161,8 @@ The __data__ items include:
 3. View your chosen in the regular Adam Matthew web interface (hint, find the __uri__ field).
 4. Can you get to the full text for that document?
 5. _Going further_: Try the second form to look at sections within documents. What differences do you see?
-6. _Going even further_: Write a short Python script that takes a URL, calls the Adam Matthew API, returns JSON data, then does something with that data. [I have written the start of the script for you...](https://github.com/PhilReedData/AdamMatthewTry) TBA
+6. _Going even further_: Write a short Python script that takes a URL, calls the Adam Matthew API, returns JSON data, then does something with that data. [I have written the start of the script for you...](https://github.com/PhilReedData/AdamMatthewTry)
 
-
-### Other matters
-(May put this in the Conclusions section) Data mining agreements, copyright... TBA
 
 ### Support from Adam Matthew
 This is not part of the usual service from Adam Matthew, or from academic libraries in the UK. There is, however, some guidance from [The Adam Matthew API](http://developers.amdigital.co.uk/API/Overview).

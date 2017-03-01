@@ -19,6 +19,9 @@ So what could be done with this hard drive copy that could not be done with the 
 
 Would that be interesting to you?
 
+### Copyright and licence agreements
+_See the Library's [Copyright Guidance](http://subjects.library.manchester.ac.uk/copyright/) for information and support._
+
 ### Conclusions
 
 In this workshop, we have begun to look at how Library collections and resources can be used in Digital Humanities research, and what some of the advantages and challenges of it may include.
