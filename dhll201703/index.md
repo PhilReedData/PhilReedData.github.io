@@ -6,6 +6,8 @@ title: Digital Humanities Library Lab - Exploring digital collections, 3 March 2
 
 ![Twitter icon](img/twitter-32.png)[Twitter hashtag #dhliblab](https://twitter.com/search?f=tweets&q=%23dhliblab){:target="_blank"}
 
+![cover image](dhll1703-cover.png)
+
 This workshop is designed to help Faculty of Humanities researchers develop new and exciting computational projects working with the University Library's digital collections. 
 
 [DH@Manchester](http://www.digital-humanities.manchester.ac.uk/) is seeking targeted expressions of interest from Faculty of Humanities researchers at all levels to develop new and innovative computational research projects with partners including [the University of Manchester Library](http://www.library.manchester.ac.uk/) and the [School of Computer Science](http://www.cs.manchester.ac.uk/). In anticipation of the formal Call which will go out shortly, this Library Lab will allow researchers at all levels to gain hands-on experience with tools and techniques in order to go on to develop individual research projects with the collections. 
