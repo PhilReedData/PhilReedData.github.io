@@ -23,6 +23,6 @@ Please note that the formal Call for expressions of interest in new project idea
 - [Activity: Adam Matthew Mass Observation](ammo.html)
 - [Wrapping up](wrapping.html)
 
-[:thumbsup: Do you wish to leave any feedback?](https://goo.gl/forms/KmYw8TnrlVt0lw5i1)
+[:thumbsup: Finished? Please leave some feedback](https://goo.gl/forms/KmYw8TnrlVt0lw5i1)
 
-[:arrow_up_small: Back to top](#digital-humanities-library-lab-exploring-digital-collections-3-march-2017) | [:house: Home](/)
+[:arrow_up_small: Back to top](#digital-humanities-library-lab-exploring-digital-collections-3-march-2017) | [:house: Home](/) | [:arrow_forward: Start](welcome.html)
