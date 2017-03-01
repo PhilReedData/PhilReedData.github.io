@@ -61,7 +61,7 @@ Dummy format for a search "apples", return first 25 results:
 http://baseurl.co.uk/page.html?query=apples&take=25
 ~~~
 The data it returns is still text data, but instead of using HTML markup it uses [JSON](https://en.wikipedia.org/wiki/JSON#Example){:target="_blank"} markup. JSON (pronounced "JAY-son") data is structured as dictionary `key:value` pairs, that is, some label or key is assigned some value. If there is more than one pair, they are separated by commas. The value part can itself be a list of `key:value` pairs. For example:
-```json
+```javascript
 {
 	timestamp: "2/26/2017 8:10:10 PM",
 	totalResults: "25",
