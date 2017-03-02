@@ -11,51 +11,51 @@ We will have a look at [Jisc Historical Collections](http://historicaltexts.jisc
 - Eighteenth Century Collections Online (ECCO) 1701-1800
 - British Library's 19th century collection 1789-1914
 
-![Jisc Historical Collections](img/jhc-110.png)
+![Three of the historical collections](img/jhc-110.png)
 
 _Objective_: We will use Jisc Historical Collections to learn about searching multiple digital text collections for particular words allowing for variations in spelling, typing and printing.
 
 ### Fuzzy matching, variant spellings and more
 
-![Jisc Historical Collections](img/jhc-120.png)
+![Search start](img/jhc-120.png)
 You can use [Jisc Historical Collections](http://historicaltexts.jisc.ac.uk/){:target="_blank"} from anywhere on University campus, or off-campus via your University username and password (Shibboleth).
 
 If you click on the __Advanced search__ button, you will see extra search fields including publication date, choice of collections, and which part of the text to look at (title, author, etc.). 
 
-![Jisc Historical Collections](img/jhc-130.png)
+![Advanced search](img/jhc-130.png)
 
 Below the search text field is a drop-down menu labelled __Fuzzy and Variants__. If you type a word such as "colour" in the search text field, you can choose from the options below to include spelling and typing equivalent words for matching. This can also help if the text you are looking at is not perfectly transcribed by the OCR tools (which is quite likely).
 
 #### Variant spellings
 These may be historical alternative spelling variants for the word.
-![Jisc Historical Collections](img/jhc-140.png)
+![Variant spellings](img/jhc-140.png)
 
 #### Variant forms
-![Jisc Historical Collections](img/jhc-142.png)
+![Variant forms](img/jhc-142.png)
 
 #### Misspellings
 Common misspellings are suggested.
-![Jisc Historical Collections](img/jhc-144.png)
+![Misspellings](img/jhc-144.png)
 
 #### Printer variations
 Sometimes a character (or several characters) are substiuted in type, for example "w" (one "doubleyoo") may be encoded as "vv" (two "vees").
-![Jisc Historical Collections](img/jhc-146.png)
+![Printer variations](img/jhc-146.png)
 
 #### Fuzzy matching
 Allows for matching any words within a set spelling distance (no suggestions).
-![Jisc Historical Collections](img/jhc-148.png)
+![Fuzzy matching](img/jhc-148.png)
 
 Each of these suggested variants can be disabled by clicking on its "X" button.
 
 ### Search results
 After clicking the :mag:__Search__ button, the results list is shown, preceeded by a chart of matches against publication year. You can select a date range from the chart to further limit the search (simply drag the mouse over the years you want), and you can further refine using the filters on the left.
-![Jisc Historical Collections](img/jhc-150.png)
+![Search result chart](img/jhc-150.png)
 
 Matches within text...
-![Jisc Historical Collections](img/jhc-160.png)
+![Matches within text](img/jhc-160.png)
 
 Show whole text...
-![Jisc Historical Collections](img/jhc-170.png)
+![Show whole text](img/jhc-170.png)
 
 You may download as a PDF, and the full text may be searchable using the usual Ctrl/Cmd+F function.
 
