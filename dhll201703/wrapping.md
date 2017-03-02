@@ -23,6 +23,8 @@ Would that be interesting to you?
 
 I am building a new [subject guide](http://subjects.library.manchester.ac.uk/digitalhumanities) for using Library collections in Digital Humanities research. Only the page on Collections is ready to use yet. It lists some of the resources of particular interest.
 
+Please do not share this resource with students yet.
+
 ### Copyright and licence agreements
 _See the Library's [Copyright Guidance](http://subjects.library.manchester.ac.uk/copyright/) for information and support._
 
