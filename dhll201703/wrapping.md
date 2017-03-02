@@ -6,7 +6,7 @@ title: Wrapping up | Digital Humanities Library Lab - Exploring digital collecti
 ## Wrapping up
 It has been quite a challenge to limit what is covered in a three-hour workshop and allow enough time to cover it properly. I will mention a couple of items that sadly did not make the cut.
 
-### Honorable mention: JSTOR Data for Research
+### Honourable mention: JSTOR Data for Research
 If you wish to try these kinds of techniques on another resource, consider [JSTOR Data for Research](jstordfr.html) (DfR). 
 ![Frequencies for a text](img/dfr-115.png)
 

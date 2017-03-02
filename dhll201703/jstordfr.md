@@ -5,7 +5,7 @@ title: JSTOR DfR | Digital Humanities Library Lab - Exploring digital collection
 # Digital Humanities Library Lab: Exploring digital collections, 3 March 2017
 
 
-## Honorable mention: JSTOR Data for Research
+## Honourable mention: JSTOR Data for Research
 If you wish to try these kinds of techniques on another resource, consider [JSTOR Data for Research](http://dfr.jstor.org/){:target="_blank"} (DfR). 
 ![Data for Research search](img/dfr-110.png)
 JSTOR DfR allows you to search the same collections as the regular JSTOR web interface (OCR and metadata), but also offers features of interest to Digital Humanists such as:
@@ -27,6 +27,6 @@ How to install Python on the "Managed Desktop" at The University of Manchester:
 - Click "Install" and wait.
 
 
-[:arrow_up_small: Back to top](#honorable-mention-jstor-data-for-research) | [:arrow_double_up: Parent](wrapping.html) 
+[:arrow_up_small: Back to top](#honourable-mention-jstor-data-for-research) | [:arrow_double_up: Parent](wrapping.html) 
 
 [:house: Home](/)
