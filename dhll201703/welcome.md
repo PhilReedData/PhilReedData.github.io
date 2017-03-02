@@ -10,7 +10,7 @@ title: Welcome | Digital Humanities Library Lab - Exploring digital collections,
 In this workshop, we will begin to look at how Library collections and resources can be used in Digital Humanities research, and what advantages and challenges may arise.
 
 ### Introductory show case
-Before we get into any hands-on examples, I would like to show a more extensive project which uses historical newspapers, text mining and anylsis, together with GIS for an interactive map to explore the newly constructed data set.
+Before we get into any hands-on examples, I would like to show a more extensive project which uses historical newspapers, text mining and analysis, together with GIS for an interactive map to explore the newly constructed data set.
 
 Runner up of the BL Labs Competition (2016):
 __Black Abolitionist Performances and their Presence in Britain__

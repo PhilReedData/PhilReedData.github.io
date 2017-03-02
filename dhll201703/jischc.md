@@ -38,7 +38,7 @@ Common misspellings are suggested.
 ![Misspellings](img/jhc-144.png)
 
 #### Printer variations
-Sometimes a character (or several characters) are substiuted in type, for example "w" (one "doubleyoo") may be encoded as "vv" (two "vees").
+Sometimes one or more characters are substituted in type, for example "w" (one "doubleyoo") may be encoded as "vv" (two "vees").
 ![Printer variations](img/jhc-146.png)
 
 #### Fuzzy matching
@@ -48,7 +48,7 @@ Allows for matching any words within a set spelling distance (no suggestions).
 Each of these suggested variants can be disabled by clicking on its "X" button.
 
 ### Search results
-After clicking the :mag:__Search__ button, the results list is shown, preceeded by a chart of matches against publication year. You can select a date range from the chart to further limit the search (simply drag the mouse over the years you want), and you can further refine using the filters on the left.
+After clicking the :mag:__Search__ button, the results list is shown, preceded by a chart of matches against publication year. You can select a date range from the chart to further limit the search (simply drag the mouse over the years you want), and you can further refine using the filters on the left.
 ![Search result chart](img/jhc-150.png)
 
 Matches within text...
@@ -59,7 +59,7 @@ Show whole text...
 
 You may download as a PDF, and the full text may be searchable using the usual Ctrl/Cmd+F function.
 
-### Activites
+### Activities
 1. Try another word that you expect there may be spelling or typing variants for. Are the suggestions what you would expect?
 2. Try a search for something like the following. Do the variants help you to find more relevant results, and quicker?
 - Title: contains "illumination" with variant spellings, variant forms, misspellings and printer replacements

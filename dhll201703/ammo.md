@@ -113,9 +113,12 @@ https://api.amdigital.co.uk/1.0/massobservation/documents?apiKey=XXXXXXXXXXXXXXX
 You should see a JSON data response. Don't be put off, it's more useful and meaningful than it first appears.
 
 If you are using Firefox, you will need to install an add-on called [JSONView](https://addons.mozilla.org/en-us/firefox/addon/jsonview/){:target="_blank"} to view JSON data nicely. Alternatively, or if you are a Safari user, copy and paste the data into the [Online JSON Viewer](http://jsonviewer.stack.hu/){:target="_blank"}.
-![Practice in Safari](img/ammo-150.png)
+
+![JSON response Safari](img/ammo-110.png)
+
+
 Having given those alternatives, it might be easier to use Google Chrome, where the returned JSON data will, after a few seconds, display in a nicer way (pretty printing). 
-![Practice in Chrome](img/ammo-160.png)
+![JSON response Chrome](img/ammo-130.png)
 
 
 ### Use a simple tool
@@ -135,7 +138,9 @@ Use this page to search documents by these fields:
 Complete some of the fields above, and paste in the API key, and press the __"Create URL and run"__ button.
 
 #### Results
-![Adam Matthew Mass Observation](img/ammo-170.png)
+
+![Using the tool in Safari](img/ammo-150.png)
+![Using the tool in Chrome](img/ammo-160.png)
 
 The returned JSON data has a structure which includes:
 
@@ -150,9 +155,11 @@ The __data__ items include:
 - __collection__ - always "Mass Observation" for our queries
 - __identifier__ - we can use this in a subsequent query in the "id" field
 - __uri__ - a link to view the document in the regular Adam Matthew web interface
-- __metadata__ - a list of metatdata items such as title, date, source, rights, and fullText (true/false)
+- __metadata__ - a list of metadata items such as title, date, source, rights, and fullText (true/false)
 - __fullText__ - for a single search result (by id), if available, get the full text (could be slow)
 
+If you request a specific item by its identifier, you may get the full text:
+![A fulltext result](img/ammo-170.png)
 
 
 ### Exercise
