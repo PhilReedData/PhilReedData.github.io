@@ -151,7 +151,7 @@ The __data__ items include:
 - __identifier__ - we can use this in a subsequent query in the "id" field
 - __uri__ - a link to view the document in the regular Adam Matthew web interface
 - __metadata__ - a list of metatdata items such as title, date, source, rights, and fullText (true/false)
-- __fulltext__ - for a single search result (by id), if available, get the full text (could be slow)
+- __fullText__ - for a single search result (by id), if available, get the full text (could be slow)
 
 
 
