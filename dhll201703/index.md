@@ -29,4 +29,7 @@ Please note that the formal Call for expressions of interest in new project idea
 
 [:thumbsup: Finished? Please leave some feedback](https://goo.gl/forms/KmYw8TnrlVt0lw5i1)
 
+### Thanks
+I would like to thank the lab assistants on the day: Carlene Barton and Rachel Kirkwood. I would like to give special thanks to the researchers who helped me to refine the workshop plan: Lauren Fonteyn, Andrea Nini and George Walkden.
+
 [:arrow_up_small: Back to top](#digital-humanities-library-lab-exploring-digital-collections-3-march-2017) | [:house: Home](/) | [:arrow_forward: Start](welcome.html)
