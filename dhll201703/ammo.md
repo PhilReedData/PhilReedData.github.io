@@ -12,7 +12,7 @@ title: Adam Matthew | Digital Humanities Library Lab - Exploring digital collect
 ![Mass Observation map](img/ammo-map.png)
 
 #### Objectives
-This resource has been selected for this afternoon's workshop because of its potential for data mining, and we will have a very introductory look at how and why you might use its alternative API interface to the regular web interface.
+This resource has been selected for this afternoon's workshop because of its potential for data mining, and we will have a very introductory look at how and why you might use its alternative API interface to the regular web interface. In order to do this, we must cover a bit of technical detail first.
 
 ### Overview
 
@@ -86,11 +86,15 @@ Looking at JSON data in the web browser is not particularly helpful. It is desig
 If you got JSON data back from a URL while using Internet Explorer, you will be offered to save the response as a file. This is not very helpful for us, better to use another browser that can show the responses directly.
 ![JSON response Internet Explorer](img/download-json-ie.png)
 
-If you use Safari or Firefox, you will see the JSON data in the browser, but as one long line with no colour or formatting. This is not very readable by people, although fine for computers.
+If you use Safari, Firefox or Chrome, you will see the JSON data in the browser, but as one long line with no colour or formatting. This is not very readable by people, although fine for computers.
 ![JSON response Safari](img/ammo-110.png)
 
-If you use Google Chrome, the JSON data should, after a few seconds, be formatting with clear spacing and colouring. Much better! We can now see the structure. If it does not, you may need to install a [JSON Viewer extension](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?)
+There is a way to make JSON data appear formatted with clear spacing and colouring.  To do this, you may need to __install a browser add-on or extension__.
+- Chrome extension: [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?){:target="_blank"}
+- Firefox add-on: [JSONView](https://addons.mozilla.org/en-us/firefox/addon/jsonview/){:target="_blank"}
+- Alternatively, copy and paste the plain text JSON data into the [Online JSON Viewer](http://jsonviewer.stack.hu/){:target="_blank"} website.
 ![JSON response Chrome](img/ammo-130.png)
+Much better! We can now see the structure.
 
 ### Get the API key
 For the purposes of security, the URLs that you use to access the Adam Matthew API need to include a 32-digit key. The key given to us for the purpose of this workshop is not included in this web page as it could be viewed by anyone. Please await instructions on the afternoon! :key:
@@ -112,12 +116,8 @@ https://api.amdigital.co.uk/1.0/massobservation/documents?apiKey=XXXXXXXXXXXXXXX
 ![How the URL looks](img/ammo-120.png)
 You should see a JSON data response. Don't be put off, it's more useful and meaningful than it first appears.
 
-If you are using Firefox, you will need to install an add-on called [JSONView](https://addons.mozilla.org/en-us/firefox/addon/jsonview/){:target="_blank"} to view JSON data nicely. Alternatively, or if you are a Safari user, copy and paste the data into the [Online JSON Viewer](http://jsonviewer.stack.hu/){:target="_blank"}.
-
 ![JSON response Safari](img/ammo-110.png)
-
-
-Having given those alternatives, it might be easier to use Google Chrome, where the returned JSON data will, after a few seconds, display in a nicer way (pretty printing). 
+Remember, you may need to install a JSON viewer extension to display the code in a better way.
 ![JSON response Chrome](img/ammo-130.png)
 
 
