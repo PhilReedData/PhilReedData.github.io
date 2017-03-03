@@ -89,7 +89,7 @@ If you got JSON data back from a URL while using Internet Explorer, you will be 
 If you use Safari or Firefox, you will see the JSON data in the browser, but as one long line with no colour or formatting. This is not very readable by people, although fine for computers.
 ![JSON response Safari](img/ammo-110.png)
 
-If you use Google Chrome, the JSON data will, after a few seconds, be formatting with clear spacing and colouring. Much better! We can now see the structure.
+If you use Google Chrome, the JSON data should, after a few seconds, be formatting with clear spacing and colouring. Much better! We can now see the structure. If it does not, you may need to install a [JSON Viewer extension](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?)
 ![JSON response Chrome](img/ammo-130.png)
 
 ### Get the API key
