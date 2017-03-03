@@ -89,10 +89,11 @@ If you got JSON data back from a URL while using Internet Explorer, you will be 
 If you use Safari, Firefox or Chrome, you will see the JSON data in the browser, but as one long line with no colour or formatting. This is not very readable by people, although fine for computers.
 ![JSON response Safari](img/ammo-110.png)
 
-There is a way to make JSON data appear formatted with clear spacing and colouring.  To do this, you may need to __install a browser add-on or extension__.
+:bulb:  There is a way to make JSON data appear formatted with clear spacing and colouring.  To do this, you may need to __install a browser add-on or extension__.
 - Chrome extension: [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?){:target="_blank"}
 - Firefox add-on: [JSONView](https://addons.mozilla.org/en-us/firefox/addon/jsonview/){:target="_blank"}
 - Alternatively, copy and paste the plain text JSON data into the [Online JSON Viewer](http://jsonviewer.stack.hu/){:target="_blank"} website.
+
 ![JSON response Chrome](img/ammo-130.png)
 Much better! We can now see the structure.
 
@@ -117,7 +118,7 @@ https://api.amdigital.co.uk/1.0/massobservation/documents?apiKey=XXXXXXXXXXXXXXX
 You should see a JSON data response. Don't be put off, it's more useful and meaningful than it first appears.
 
 ![JSON response Safari](img/ammo-110.png)
-Remember, you may need to install a JSON viewer extension to display the code in a better way.
+:bulb: Remember, you may need to install a JSON viewer extension to display the code in a better way.
 ![JSON response Chrome](img/ammo-130.png)
 
 
@@ -140,6 +141,7 @@ Complete some of the fields above, and paste in the API key, and press the __"Cr
 #### Results
 
 ![Using the tool in Safari](img/ammo-150.png)
+:bulb: Remember, you may need to install a JSON viewer extension to display the code in a better way.
 ![Using the tool in Chrome](img/ammo-160.png)
 
 The returned JSON data has a structure which includes:
