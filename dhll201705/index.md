@@ -4,7 +4,7 @@ title: Digital Humanities Library Lab - Exploring digital collections, 24 May 20
 
 # Digital Humanities Library Lab: Exploring digital collections, 24 May 2017
 
-![Twitter icon](img/twitter-32.png)[Twitter hashtag #dhliblab](https://twitter.com/search?f=tweets&q=%23dhuml){:target="_blank"}
+![Twitter icon](img/twitter-32.png)[Twitter hashtag #dhuml](https://twitter.com/search?f=tweets&q=%23dhuml){:target="_blank"}
 
 This workshop is designed to help Faculty of Humanities researchers develop new and exciting computational projects working with the University Library's digital collections. 
 
