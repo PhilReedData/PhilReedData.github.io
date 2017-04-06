@@ -19,8 +19,8 @@ This event is open to all Faculty of Humanities researchers, but numbers are lim
 
 ## Overview of the workshop
 - [Welcome and introduction](welcome.html)
-- [Activity: Image searching in woodcut printing of pre-20th century ballads via JRRI](#)
-- [Activity: Following up references with JSTOR Text Analyzer](#)
+- [Activity: Image searching in a collection of pre-20th century ballads](ballads.html)
+- [Activity: Finding references in a text with JSTOR Text Analyzer](#)
 - [Activity: Colour analysis with Gale Cengage Illustrated London News Historical Archive](#)
 - [Wrapping up](wrapping.html)
 
