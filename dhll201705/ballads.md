@@ -18,11 +18,11 @@ _Objective_: We will use Broadside Ballads Online to observe the values of creat
 
 
 ### Woodcut portrait prints
-_ROUGH COPY_ -- The scribed text is supported by many illustrations or portraits, printed using woodcut blocks. The specific people depicted can be seen many times throughout the collection, and the same protrait block print may be used each time.
+_ROUGH COPY_ -- The scribed text is supported by many illustrations or portraits, printed using woodcut blocks. The specific people depicted can be seen many times throughout the collection, and the same portrait block print may be used each time.
 
 This collection includes an image search feature. It lets you draw a box around a portrait, and the database will search for any other images which include a similar matching portrait.
 
-This feature can help you to find all occurences of that person within the collection, analogous to a text search for a known individual's name.
+This feature can help you to find all occurrences of that person within the collection, analogous to a text search for a known individual's name.
 ![One portrait reoccuring](img/bal-115.png)
 
 ### Tasks
