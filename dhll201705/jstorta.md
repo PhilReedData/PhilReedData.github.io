@@ -1,5 +1,5 @@
 ﻿---
-title: JSTOR Topicgraph | Digital Humanities Library Lab - Exploring digital collections, 24 May 2017
+title: JSTOR Text Analyzer | Digital Humanities Library Lab - Exploring digital collections, 24 May 2017
 ---
 
 # Digital Humanities Library Lab: Exploring digital collections, 24 May 2017
