@@ -1,4 +1,4 @@
----
+ï»¿---
 title: Image searching | Digital Humanities Library Lab - Exploring digital collections, 3 March 2017
 ---
 
@@ -9,7 +9,7 @@ We will have a look at [Broadside Ballads Online](http://ballads.bodleian.ox.ac.
 
 ![Broadside Ballads Online homepage](img/bal-110.png)
 
-This activity follows on from a research project by Dr Giles Bergel titled 'British Woodcut Printing in Transition'. The project was conducted in part with the [John Rylands Research Institute](http://www.jrri.manchester.ac.uk/), using ballads and chapbook collections from John Rylands Library, Bodleian Libraries ([Broadside Ballads](http://ballads.bodleian.ox.ac.uk/)), Manchester Central Library, Chetham's Library and others. Some of these books were printed with Thomas Bewick’s more refined and robust school of woodcut printing. 
+This activity follows on from a research project by Dr Giles Bergel titled 'British Woodcut Printing in Transition'. The project was conducted in part with the [John Rylands Research Institute](http://www.jrri.manchester.ac.uk/), using ballads and chapbook collections from John Rylands Library, Bodleian Libraries ([Broadside Ballads](http://ballads.bodleian.ox.ac.uk/)), Manchester Central Library, Chetham's Library and others. Some of these books were printed with Thomas Bewick's more refined and robust school of woodcut printing. 
 
 Bergel used software developed at the University of Oxford with these collections to establish whether Bewick's woodblocks we re-used by less illustrious print shops and answer other research questions that depend on knowing which images are similar to one another.
 
