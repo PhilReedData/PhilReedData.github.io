@@ -1,12 +1,12 @@
 
 # Digital Humanities Library Lab: Exploring digital collections, 24 May 2017
 
-## Activity: Image searching in a collection of pre-20^th^ century ballads
-We will have a look at [Broadside Ballads Online](http://ballads.bodleian.ox.ac.uk/){:target="_blank"} from the Bodleian Libraries. Broadside Ballads Online presents a digital collection of English printed ballad-sheets from between the 16^th^ and 20^th^ centuries, linked to other resources for the study of the English ballad tradition. 
+## Activity: Image searching in a collection of pre-20th century ballads
+We will have a look at [Broadside Ballads Online](http://ballads.bodleian.ox.ac.uk/){:target="_blank"} from the Bodleian Libraries. Broadside Ballads Online presents a digital collection of English printed ballad-sheets from between the 16th and 20th centuries, linked to other resources for the study of the English ballad tradition. 
 
 ![Broadside Ballads Online homepage](img/bal-110.png)
 
-This activity follows on from a research project by Dr Giles Bergel titled 'British Woodcut Printing in Transition'. The project was conducted in part with the [John Rylands Research Institute](http://www.jrri.manchester.ac.uk/), using ballads and chapbook collections from John Rylands Library, Bodleian Libraries ([Broadside Ballads](http://ballads.bodleian.ox.ac.uk/)), Manchester Central Library, Chetham's Library and others. Some of these books were printed with Thomas Bewick's more refined and robust school of woodcut printing. 
+This activity follows on from a research project by Dr Giles Bergel titled '_British Woodcut Printing in Transition_'. The project was conducted in part with the [John Rylands Research Institute](http://www.jrri.manchester.ac.uk/), using ballads and chapbook collections from John Rylands Library, Bodleian Libraries ([Broadside Ballads](http://ballads.bodleian.ox.ac.uk/)), Manchester Central Library, Chetham's Library and others. Some of these books were printed with Thomas Bewick's more refined and robust school of woodcut printing. 
 
 Bergel used software developed at the University of Oxford with these collections to establish whether Bewick's woodblocks we re-used by less illustrious print shops and answer other research questions that depend on knowing which images are similar to one another.
 
