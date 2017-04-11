@@ -1,8 +1,8 @@
 
 # Digital Humanities Library Lab: Exploring digital collections, 24 May 2017
 
-## Activity: Image searching in a collection of pre-20<sup>th</sup> century ballads
-We will have a look at [Broadside Ballads Online](http://ballads.bodleian.ox.ac.uk/){:target="_blank"} from the Bodleian Libraries. Broadside Ballads Online presents a digital collection of English printed ballad-sheets from between the 16<sup>th</sup> and 20<sup>th</sup> centuries, linked to other resources for the study of the English ballad tradition. 
+## Activity: Image searching in a collection of pre-20^th^ century ballads
+We will have a look at [Broadside Ballads Online](http://ballads.bodleian.ox.ac.uk/){:target="_blank"} from the Bodleian Libraries. Broadside Ballads Online presents a digital collection of English printed ballad-sheets from between the 16^th^ and 20^th^ centuries, linked to other resources for the study of the English ballad tradition. 
 
 ![Broadside Ballads Online homepage](img/bal-110.png)
 
