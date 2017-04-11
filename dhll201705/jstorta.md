@@ -1,4 +1,4 @@
-﻿
+
 # Digital Humanities Library Lab: Exploring digital collections, 24 May 2017
 
 ## Activity: Finding references in a text with JSTOR Text Analyzer
@@ -12,7 +12,7 @@ Text Analyzer is a beta tool build by JSTOR Labs. This 1:25 video introduces it.
 Launch [JSTOR Text Analyzer](https://labs.jstor.org/analyze/){:target="_blank"}. ...
 ![JSTOR Text Analyzer home page](img/jta-110.png)
 
-It is easy to start using, simply drag a document into the big box. They provide an example, "Ernst Röhm, The Highest-Ranking Gay Nazi".
+It is easy to start using, simply drag a document into the big box. They provide an example, "Ernst R�hm, The Highest-Ranking Gay Nazi".
 ![Results page](img/jta-120.png)
 
 _MORE TO FOLLOW_
