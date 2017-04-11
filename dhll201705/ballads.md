@@ -1,5 +1,5 @@
 ﻿---
-title: "Image searching | Digital Humanities Library Lab - Exploring digital collections, 3 March 2017"
+title: "Image searching | Digital Humanities Library Lab &endash; Exploring digital collections, 24 March 2017"
 ---
 
 # Digital Humanities Library Lab: Exploring digital collections, 24 May 2017
