@@ -21,7 +21,7 @@ This event is open to all Faculty of Humanities researchers, but numbers are lim
 - [Welcome and introduction](welcome.html)
 - [Activity: Image searching in a collection of pre-20th century ballads](ballads.html)
 - [Activity: Finding references in a text with JSTOR Text Analyzer](jstorta.html)
-- [Activity: Colour analysis with Gale Cengage Illustrated London News Historical Archive](london.html)
+- [Activity: Colour analysis with front covers of publications](london.html)
 - [Wrapping up](wrapping.html)
 
 [:thumbsup: Finished? Please leave some feedback](https://goo.gl/forms/KmYw8TnrlVt0lw5i1)
