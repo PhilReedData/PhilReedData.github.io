@@ -1,8 +1,4 @@
-﻿---
-title: JSTOR Text Analyzer | Digital Humanities Library Lab - Exploring digital collections, 24 May 2017
----
-
-# Digital Humanities Library Lab: Exploring digital collections, 24 May 2017
+﻿# Digital Humanities Library Lab: Exploring digital collections, 24 May 2017
 
 ## Activity: Finding references in a text with JSTOR Text Analyzer
 A new tool to search for referenced article and books is [JSTOR Text Analyzer](https://labs.jstor.org/analyze/){:target="_blank"}. We will use it to search for items that are available in JSTOR.
