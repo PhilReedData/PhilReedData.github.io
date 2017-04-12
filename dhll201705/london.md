@@ -18,7 +18,7 @@ _NOTES_
 - Available online through usual browse and search tools.
 - This interface suits many uses but does not, for example, allow one to look at the covers of all issues at once.
 - We have a hard drive with all issues, as OCR-transcribed text files and image scans.
-- We've written a tool to quantify one aspect of the cover image, its (crude) average colour, and another tool to [show you this data](http://personalpages.manchester.ac.uk/staff/Phil.Reed/calendara.html). -- _note: link uses dummy data for now_
+- We've written a tool to quantify one aspect of the cover image, its (crude) average colour, and another tool to [show you this data](calendara.html).
 - Look at the average colours for each issue, what can you see?
   * Are there trends?
   * Is there a correlation between particular colours and particular dates, such as red during times of economic recession, black during times of war...?
@@ -28,6 +28,7 @@ _NOTES_
   * How was this possible? Using a ProQuest collection with access to all fulltext and images, using tools.
   * What is the next step?
 
+### A simple(r) example I developed, using _Illustrated London News_  
 ![ILN landing page](img/iln-110.png)
 ![ILN browse by year](img/iln-120.png)
 ![ILN tool, calendar default](img/iln-130.png)
@@ -35,7 +36,14 @@ _NOTES_
 ![ILN tool, table view](img/iln-140.png)
 ![ILN issue that's mostly red in colour](img/iln-150.png)
 
+#### Source code
+The following Python code will take a CSV file with headings [year, month, day, red, green, blue] and produce an HTML page to show it. The is a script for calendar view, one for table view, and an example CSV file. Note that the RGB values are integers between 0 and 255.
 
+- [create_calendara_page.py](create_calendara_page.py)
+- [create_table_page.py](create_table_page.py)
+- [dummy-values.csv](dummy-values.csv)
+
+### A more developed example from Yale University Library, using _Vogue_
 ![RRV landing page](img/rrv-110.png)
 ![RRV colourmetric space](img/rrv-120.png)
 

@@ -41,6 +41,6 @@ In this workshop, we have begun to look at how Library collections and resources
 [:thumbsup: Do you wish to leave any feedback?](https://goo.gl/forms/KmYw8TnrlVt0lw5i1)
 
 
-[:arrow_up_small: Back to top](#wrapping-up) | [:arrow_double_up: Parent](index.html)
+[:arrow_up_small: Back to top](#wrapping-up) | [:arrow_double_up: Parent](index.html) | [:arrow_backward: Prev](london.html)
 
 [:house: Home](/)
