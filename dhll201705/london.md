@@ -10,7 +10,7 @@ title: Colour analysis | Digital Humanities Library Lab - Exploring digital coll
 _ROUGH_
 
 #### Objectives
-Analyse an aspect of an entire historical collection using a custom-built tool and begin thinking of questions to ask.
+Analyse a visual aspect of an entire historical collection using a simple tool and begin thinking of questions to ask. Repeat the process with another collection and a developed set of tools from another institution.
 
 ### Overview
 _NOTES_
@@ -27,6 +27,17 @@ _NOTES_
   * Look at some of the developed ideas here.
   * How was this possible? Using a ProQuest collection with access to all fulltext and images, using tools.
   * What is the next step?
+
+![ILN landing page](img/iln-110.png)
+![ILN browse by year](img/iln-120.png)
+![ILN tool, calendar default](img/iln-130.png)
+![ILN tool, calendar altered view](img/iln-131.png)
+![ILN tool, table view](img/iln-140.png)
+![ILN issue that's mostly red in colour](img/iln-150.png)
+
+
+![RRV landing page](img/rrv-110.png)
+![RRV colourmetric space](img/rrv-120.png)
 
 ### Tasks
 _TO DO_

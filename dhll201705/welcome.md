@@ -18,6 +18,19 @@ Before we get into any hands-on examples, I would like to show a more extensive 
 
 ![Robots Reading Vogue homepage](img/robots-reading-vogue-homepage.png)
 
+This project's website includes public access to various tools, including a topic modeller and N-gram viewer.
+![RRV topic modelling](img/rrv-130.png)
+
+The topic modeller reads all of the (OCR'd) text and determines what themes might be covered. The charts show the presence of each of these themes changing with time (year of issue) and word clouds of the most important words and phrases involved. See the image above for the identified topic "advice and etiquette".
+
+The words and phrases identified by topic modelling might lead to interesting searches in the N-gram viewer tool. Trying some of these gives the image below.
+![RRV topic modelling leads to n-gram](img/rrv-135.png)
+
+The use of each word or phrase with time might have a very different pattern to the theme they were identified in, as the words could be used in many different themes. You could use the N-gram viewer to search for any word or short phrase.
+![RRV n-gram viewer alternative](img/rrv-140.png)
+
+We shall return to Robots Reading _Vogue_ in the third activity.
+
 [:arrow_up_small: Back to top](#welcome-and-introduction) | [:arrow_double_up: Parent](index.html) |  [:arrow_forward: Next](ballads.html)
 
 [:house: Home](/)
