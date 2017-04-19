@@ -28,7 +28,7 @@ The right column shows the search results, the suggested relevant items on JSTOR
 If you do not have access to your preferred familiar texts, or don't wish to use them, feel free to use texts from other sources such as [OpenBook Publishers](http://www.openbookpublishers.com/){:target="_blank"}.
 
 ### Tasks
-1. Try the [TextAnalyzer]https://www.jstor.org/analyze/){:target="_blank"} on a text you are familiar with. Are the identified terms what you would expect? If not, why not?
+1. Try the [TextAnalyzer](https://www.jstor.org/analyze/){:target="_blank"} on a text you are familiar with. Are the identified terms what you would expect? If not, why not?
 2. Could this tool be useful for you or your students in the ways that JSTOR suggest?
 3. What other uses could there be for this tool?
 4. If you attended the [previous DH Library Lab](../dhll201703/index.html), how does this tool compare to [JSTOR TopicGraph](../dhll201703/jstortg.html)?
