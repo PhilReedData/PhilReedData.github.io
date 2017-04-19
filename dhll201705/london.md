@@ -77,8 +77,8 @@ The project [_Vogue_ Covers in Colormetric Space](http://dh.library.yale.edu/pro
 
 #### More tasks
 <ol start="3">
-<li>Open [_Vogue_ Covers in Colormetric Space](http://dh.library.yale.edu/projects/vogue/colormetricspace/){:target="_blank"}. Can you see any trend in colour saturation? (Hint: an answer is given below the visualisation.)</li>
-<li>Look at some of the other Robots Reading Vogue image projects including [slice histograms](http://dh.library.yale.edu/projects/vogue/slice_histograms/){:target="_blank"} and the unadvertised [colours ordered by frequency](http://dh.library.yale.edu/projects/vogue/colorpercent/){:target="_blank"}.</li>
+<li>Open <a href="http://dh.library.yale.edu/projects/vogue/colormetricspace/" target="_blank"><em>Vogue</em> Covers in Colormetric Space</a>. Can you see any trend in colour saturation? (Hint: an answer is given below the visualisation.)</li>
+<li>Look at some of the other Robots Reading Vogue image projects including <a href="http://dh.library.yale.edu/projects/vogue/slice_histograms/" target="_blank">slice histograms</a> and the unadvertised <a href="http://dh.library.yale.edu/projects/vogue/colorpercent/" :target="_blank">colours ordered by frequency</a>.</li>
 <li>What sort of research questions could you ask if could visualise an entire collection on one screen? Of course, that depends on the collection, so which collections might be of interest to explore like this?</li>
 </ol>
 
