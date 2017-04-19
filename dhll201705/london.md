@@ -39,9 +39,9 @@ _NOTES_
 #### Source code
 The following Python code will take a CSV file with headings [year, month, day, red, green, blue] and produce an HTML page to show it. The is a script for calendar view, one for table view, and an example CSV file. Note that the RGB values are integers between 0 and 255.
 
-- ![Python icon](img/python-16.png) [create_calendara_page.py](src/create_calendara_page.py)
-- ![Python icon](img/python-16.png) [create_table_page.py](src/create_table_page.py)
-- ![CSV icon](img/csv-16.png) [dummy-values.csv](src/dummy-values.csv)
+![Python icon](img/python-16.png) [create_calendara_page.py](src/create_calendara_page.py)
+![Python icon](img/python-16.png) [create_table_page.py](src/create_table_page.py)
+![CSV icon](img/csv-16.png) [dummy-values.csv](src/dummy-values.csv)
 
 ### A more developed example from Yale University Library, using _Vogue_
 ![RRV landing page](img/rrv-110.png)
