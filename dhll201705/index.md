@@ -29,6 +29,6 @@ This event is open to all Faculty of Humanities researchers, but numbers are lim
 [:thumbsup: Finished? Please leave some feedback](https://goo.gl/forms/KmYw8TnrlVt0lw5i1)
 
 ### Thanks
-I would like to thank the lab assistants on the day: (...) . I would like to give special thanks to the researchers who helped me to refine the workshop plan: (...) .
+I would like to thank the lab assistants on the day: Nilani Ganeshwaran and L&eacute;a Anderton. I would like to give special thanks to the researchers and librarians who helped me to shape the workshop and activities: Carol Burrows, Jane Gallagher and Rachel Kirkwood.
 
 [:arrow_up_small: Back to top](#digital-humanities-library-lab-exploring-digital-collections-24-may-2017) | [:house: Home](/) | [:arrow_forward: Start](welcome.html)
