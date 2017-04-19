@@ -7,15 +7,13 @@ title: Colour analysis | Digital Humanities Library Lab - Exploring digital coll
 
 ## Activity: Colour analysis with front covers of publications
 
-_ROUGH_
-
 #### Objectives
 Analyse a visual aspect of an entire historical collection using a simple tool and begin thinking of questions to ask. Repeat the process with another collection and a developed set of tools from another institution.
 
 ### Overview
 
 - A (relatively) simple example I developed, using _Illustrated London News_ 
-  * Task
+  * Tasks
   * How was the tool built?
 - A more developed example from Yale University Library, using _Vogue_
   * Tasks
@@ -42,11 +40,13 @@ The image below shows the tool adjusted to fit all the issies on-screen, with a 
 An alternative, advanced [table view](table.html){:target="_blank"} is also available, with each issue is accompanied by its red, green and blue values, plus the equivalent hue, luminance and saturation values. There are controls to alter the display of the table, and links to open the issue in the regular Gale Cengage web interface (if you are on-campus). Be aware, the average colour calculation is very crude, so anything you interpret from the hue, luminance and saturation numbers should be used with care.
 ![ILN tool, table view](img/iln-140.png)
 
-#### Task
+#### Tasks
 1. Look at the average colours for each issue, what can you see?
   * Are there trends? Does this give you a better idea of the change of publishing frequency with time?
   * Is there a correlation between particular colours and particular dates, such as red during times of economic recession, black during times of war...? (Hint: one colour and season combination stands out to me.)
+2. Discuss what other features would make this sort of tool more useful for you, and what technical skills or resource might be necessary. 
 
+More tasks follow after the next part.
 ![ILN issue that's mostly red in colour](img/iln-150.png)
 
   
@@ -64,18 +64,21 @@ There were two stages to the process, both involving writing a little Python (ve
 This version of Python is available on your University desktop through the [Software Centre](http://www.itservices.manchester.ac.uk/software/) (search "Anaconda").
 
 ### A more developed example from Yale University Library, using _Vogue_
+An established Digital Humanities Lab at Yale University Library has developed a series of projects titled [Robots Reading _Vogue_](http://dh.library.yale.edu/projects/vogue/){:target="_blank"}.
 ![RRV landing page](img/rrv-110.png)
+
+These projects cover text mining and image mining of the digitised ProQuest collection of the [Vogue Archive](http://www.library.manchester.ac.uk/search-resources/databases/t/dbname-377915-en.htm), the entire run of Vogue magazine (US Edition), from the first edition in 1892 to the current month, reproduced in high resolution color page images. We (currently) have standard web access to the collection; the projects that form Robots Reading Vogue depend on bulk access to the full text and images.
+
+At the start of this Lab we looked at topic modelling and N-gram viewers, concerned with text mining the collection. Here, we turn to visualisation using the cover images, in particular, colourmetric space.
+
 ![RRV colourmetric space](img/rrv-120.png)
-- What else would make this more useful? Text from the cover, charts,...
-- This is just the start. Look at a series of projects from the Digital Humanities Lab at Yale University Library, [Robots Reading _Vogue_](http://dh.library.yale.edu/projects/vogue/){:target="_blank"}.
-  * Look at some of the developed ideas here.
-  * How was this possible? Using a ProQuest collection with access to all fulltext and images, using tools.
-  * What is the next step?
 
-### Tasks
-_TO DO_
+The project [_Vogue_ Covers in Colormetric Space](http://dh.library.yale.edu/projects/vogue/colormetricspace/) uses the wonderful free tool [ImagePlot](http://lab.softwarestudies.com/p/imageplot.html) to quantitatively visualise and display the covers of all issues of _Vogue_ in an interactive chart. We can see how colourful Vogue covers were over time -- from the 1890s on the left to the 2010s on the right. The most colourful covers are higher on the y-axis.
 
-
+#### Tasks
+3. Open [_Vogue_ Covers in Colormetric Space](http://dh.library.yale.edu/projects/vogue/colormetricspace/){:target="_blank"}. Can you see any trend in colour saturation? (Hint: the answer is further down the page linked above.)
+4. Look at some of the other Robots Reading Vogue image projects including [slice histograms](http://dh.library.yale.edu/projects/vogue/slice_histograms/){:target="_blank"} and the unadvertised [colours ordered by frequency](http://dh.library.yale.edu/projects/vogue/colorpercent/){:target="_blank"}.
+5. What sort of research questions could you ask if could visualise an entire collection on one screen? Of course, that depends on the collection, so which collections might be of interest to explore like this?
 
 [:arrow_up_small: Back to top](#activity-colour-analysi-with-front-covers-of-publications) | [:arrow_double_up: Parent](index.html) | [:arrow_backward: Prev](jstorta.html) | [:arrow_forward: Next](wrapping.html)
 
