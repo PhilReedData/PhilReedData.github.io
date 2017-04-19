@@ -16,7 +16,7 @@ Analyse a visual aspect of an entire historical collection using a simple tool a
   * Tasks
   * How was the tool built?
 - A more developed example from Yale University Library, using _Vogue_
-  * Tasks
+  * More tasks
   
 ### A (relatively) simple example I developed, using _Illustrated London News_  
 ![ILN landing page](img/iln-110.png)
@@ -75,7 +75,8 @@ At the start of this Lab we looked at topic modelling and N-gram viewers, concer
 
 The project [_Vogue_ Covers in Colormetric Space](http://dh.library.yale.edu/projects/vogue/colormetricspace/) uses the wonderful free tool [ImagePlot](http://lab.softwarestudies.com/p/imageplot.html) to quantitatively visualise and display the covers of all issues of _Vogue_ in an interactive chart. We can see how colourful Vogue covers were over time -- from the 1890s on the left to the 2010s on the right. The most colourful covers are higher on the y-axis.
 
-#### Tasks
+#### More tasks
+{:start="3"}
 3. Open [_Vogue_ Covers in Colormetric Space](http://dh.library.yale.edu/projects/vogue/colormetricspace/){:target="_blank"}. Can you see any trend in colour saturation? (Hint: the answer is further down the page linked above.)
 4. Look at some of the other Robots Reading Vogue image projects including [slice histograms](http://dh.library.yale.edu/projects/vogue/slice_histograms/){:target="_blank"} and the unadvertised [colours ordered by frequency](http://dh.library.yale.edu/projects/vogue/colorpercent/){:target="_blank"}.
 5. What sort of research questions could you ask if could visualise an entire collection on one screen? Of course, that depends on the collection, so which collections might be of interest to explore like this?
