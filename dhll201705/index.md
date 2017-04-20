@@ -12,11 +12,11 @@ This workshop is designed to help Faculty of Humanities researchers develop new 
  
 [DH@Manchester](http://www.digital-humanities.manchester.ac.uk/) recently sought targeted expressions of interest from Faculty of Humanities researchers at all levels to develop new and innovative computational research projects with partners including [the University of Manchester Library](http://www.library.manchester.ac.uk/) and the [School of Computer Science](http://www.cs.manchester.ac.uk/). Supporting the formal call, the [first Library Lab](../dhll201703/index.html) was offered in March to allow researchers at all levels to gain hands-on experience with tools and techniques in order to go on to develop individual research projects with the collections. Even though that call has closed, this second Library Lab will provide a similar experience using a different selection of collections. This event may be of interest to those who could not attend the first one or would like to do more. 
  
-During the afternoon workshop, you will look at digitalised historical collections of 20th century newspapers and pre-20th century ballads, using tools to apply colour analysis and image search techniques. You will also use a new tool from JSTOR to search a document for article and book references. Computers will be available for all participants, but you may prefer to bring your own laptop. 
+During the afternoon workshop, you will look at digitalised historical collections of 20th century newspapers and pre-20th century ballads, using tools to apply colour analysis and image search techniques. You will also use a new tool from JSTOR to search a document for related articles and books. Computers will be available for all participants, but you may prefer to bring your own laptop. 
  
 For further information and any queries, please contact Phil Reed: [Phil.Reed@manchester.ac.uk](mailto:Phil.Reed@manchester.ac.uk) or [dh@manchester.ac.uk](mailto:dh@manchester.ac.uk).
  
-This event is open to all Faculty of Humanities researchers, but numbers are limited, so please register as soon as possible via the Eventbrite page _(link to follow)_. The event is scheduled for 2pm to 5pm on Wednesday, 24 May 2017 (breaking around 3.30pm for coffee).
+This event is open to all Faculty of Humanities researchers, but numbers are limited, so please register as soon as possible via the [Eventbrite page](https://www.eventbrite.co.uk/e/digital-humanities-second-library-lab-tickets-33847021352). The event is scheduled for 2pm to 5pm on Wednesday, 24 May 2017 (breaking around 3.30pm for coffee).
 
 
 ## Overview of the workshop
