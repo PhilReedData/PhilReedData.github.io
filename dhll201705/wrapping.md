@@ -22,13 +22,13 @@ One way to determine which sense is being used is to look at the words nearby, w
 
 As previously stated, this tool is just a proof-of-concept for now, but it could be developed to interpret the text surrounding each keyword, or to automatically read more articles (if the Factiva licences allows).
 
-### Another time?:
-
 ### Other collections
 
-I am building a new [subject guide](http://subjects.library.manchester.ac.uk/digitalhumanities) for using Library collections in Digital Humanities research. Only the page on Collections is ready to use yet. It lists some of the resources of particular interest.
+I have built a new [subject guide](http://subjects.library.manchester.ac.uk/digitalhumanities) for using Library collections in Digital Humanities research. It lists some collections, technology and examples of particular interest.
 
-Please do not share this resource with students yet.
+It has been 'soft launched', meaning that relevant database entry pages on the Library website link to it, but it does not appear in the list of all our subject guides.
+
+Do you think it would be useful for you or your students? Do you have any other comments on it? Please [get in touch and let me know](mailto:phil.reed@manchester.ac.uk).
 
 ### Copyright and licence agreements
 _See the Library's [Copyright Guidance](http://subjects.library.manchester.ac.uk/copyright/) for information and support._
