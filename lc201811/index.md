@@ -1,5 +1,5 @@
 # Practice
-<h4 id="openrefine-managed">Windows Managed Desktop, The University of Manchester<h4>
+<h4 id="openrefine-managed">Windows Managed Desktop, The University of Manchester</h4>
 <p>
 If you do not have administrator rights, you can still install OpenRefine to your local hard drive (C:\Work). 
 This method requires you to have Java already installed (available from the Software Center). 
@@ -11,7 +11,7 @@ Check that you have Edge, the Firefox or the Chrome browser installed and set as
 <p>
 <img src="https://github.com/PhilReedData/PhilReedData.github.io/blob/master/lc201811/or-03-unzip.png" alt="Managed Desktop unzip" />
 </p>
-      <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a></p>
+      <p>Download software from <a href="http://openrefine.org/download.html">openrefine.org</a> (currently <a href="https://github.com/OpenRefine/OpenRefine/releases/download/3.0/openrefine-win-3.0.zip">OpenRefine 3.0 Windows Kit</a>)</p>
       <p>Save it to the C:\Work directory "This PC > OS (C:) > Work".</p>
       <p>Unzip the downloaded file into the OpenRefine directory by right-clicking and selecting "7-Zip > Extract Here". </p>
       <p>Go to your newly created OpenRefine directory.</p>
