@@ -2,8 +2,10 @@
 <h4 id="openrefine-managed">Windows Managed Desktop, The University of Manchester</h4>
 <p>
 If you do not have administrator rights, you can still install OpenRefine to your local hard drive (C:\Work). 
-This method requires you to have Java already installed (available from the Software Center). 
+This method requires you to have Java already installed (available from the Software Center, "Java SE Runtime Environment (JRE)"). 
 OpenRefine will not work if you install it to a network drive such as your P: drive.
+</p>
+<p>
 Check that you have Edge, the Firefox or the Chrome browser installed and set as your default browser.
         <strong>OpenRefine runs in your default browser.</strong>
         It will not run correctly in Internet Explorer.
